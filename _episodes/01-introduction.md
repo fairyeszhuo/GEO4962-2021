@@ -5,6 +5,7 @@ exercises: 0
 questions:
 - "What is a climate model?"
 objectives:
+- "Learn about CMIP6 models"
 - "Learn about CESM"
 keypoints:
 - "CESM"
