@@ -11,8 +11,8 @@ keypoints:
 - "CMIP6"
 ---
 
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.jpg"> 
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MPIs.jpg">
+*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.png"> 
+*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MIPs.jpg">
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
