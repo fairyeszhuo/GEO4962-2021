@@ -11,8 +11,7 @@ keypoints:
 - "CMIP6"
 ---
 
-<img src="../fig/CMIP_logo_v4.jpg">
-<img src="../fig/CMIP6_MPIs.jpg">
+<img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.jpg?raw=true" width="250"> | <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MPIs.jpg?raw=true" width="250">
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
@@ -29,8 +28,8 @@ CMIP6 is the undergoing phase started in 2015.
 
 # CESM MODEL
 
-<img src="../fig/img06.jpg">
-<img src="../fig/cesm01.jpg">
+*  <img src="../fig/img06.jpg">
+*  <img src="../fig/cesm01.jpg">
 
 The [Community Earth System Model](http://www.cesm.ucar.edu/) (CESM) is a fully-coupled, global climate model that provides state-of-the-art computer simulations of the Earth's past, present, and future climate states.
 
