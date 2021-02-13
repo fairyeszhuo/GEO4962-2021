@@ -17,7 +17,7 @@ keypoints:
 
 The Coupled Model Intercomparison Project (CMIP) organized under the auspices of the World Climate Research Programme’s (WCRP) Working Group on Coupled Modelling
 (WGCM) started in 1995.The objective of CMIP is to better understand past, present, and future climate change arising from natural, unforced variability or in response to changes in radiative forcings in a multi-model context.  An important part of CMIP is to make the multi-model output publicly available in a standardized format for analysis by the wider climate community and users. The standardization of the model output in a specified format, and the collection, archival, and access of the model output through the Earth System Grid Federation (ESGF) data replication centres have facilitated multi-model analyses. 
-CMIP6 is the the undergoing phase started in 2015. 
+CMIP6 is the undergoing phase started in 2015. 
 
 *   [WCRP-WGCM: A Short Introduction to Climate Models - CMIP & CMIP6](https://www.wcrp-climate.org/wgcm-cmip)
 *   [CMIP6-Endorsed MIPs overview](https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips)
