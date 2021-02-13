@@ -5,37 +5,10 @@ exercises: 0
 questions:
 - "Tools"
 objectives:
-- "panoply, python, ncl, nco, cdo, etc."
+- "python, neview, nco, cdo, ncl, panoply etc."
 keypoints:
 - "Some of the tools available to manipulate netCDF files"
 ---
-
-
-
-# CDO (Climate Data Operators)
-
-*   [CDO (Climate Data operators) Documentation](https://code.zmaw.de/projects/cdo)
-*   [CDO Reference Card](https://code.zmaw.de/projects/cdo/embedded/cdo_refcard.pdf)
-
-# NCO (netCDF Operators)
-
-*   [NCO (netCDF Operator website)](http://nco.sourceforge.net)
-
-# NCL (Ncar Command Language)
-
-
-*   [NCL (Ncar Command Language)](https://www.ncl.ucar.edu/index.shtml)
-*   [NCL Reference Card](https://www.ncl.ucar.edu/Document/Reference_Cards/NCL_scripting_language_reference_card_A4.pdf)
-*   [AMWG-Diagnostics](http://www.cesm.ucar.edu/working_groups/Atmosphere/amwg-diagnostics-package/)
-
-# Ncview (a netCDF visual browser)
-
-*   See a [screenshot](http://cirrus.ucsd.edu/~pierce/software/ncview/ncview_screenshot.gif) of ncview in action.
-*   [Quick introduction](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html): Everything you need to know to get working in 5 minutes.
-
-# Panoply (a netCDF, HDF and GRIB Data Viewer)
-
-*   [Panoply netCDF, HDF and GRIB Data Viewer](http://www.giss.nasa.gov/tools/panoply/)
 
 # Python (programming language)
 
@@ -88,6 +61,29 @@ This is what will mostly be used during this course.
 - [Automating testing](https://coderefinery.github.io/testing/)
 - [Code documentation](https://coderefinery.github.io/documentation/)
 
+# Ncview (a netCDF visual browser)
+
+*   See a [screenshot](http://cirrus.ucsd.edu/~pierce/software/ncview/ncview_screenshot.gif) of ncview in action.
+*   [Quick introduction](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html): Everything you need to know to get working in 5 minutes.
+
+# NCO (netCDF Operators)
+
+*   [NCO (netCDF Operator website)](http://nco.sourceforge.net)
+
+# CDO (Climate Data Operators)
+
+*   [CDO (Climate Data operators) Documentation](https://code.zmaw.de/projects/cdo)
+*   [CDO Reference Card](https://code.zmaw.de/projects/cdo/embedded/cdo_refcard.pdf)
+
+# NCL (Ncar Command Language)
+
+*   [NCL (Ncar Command Language)](https://www.ncl.ucar.edu/index.shtml)
+*   [NCL Reference Card](https://www.ncl.ucar.edu/Document/Reference_Cards/NCL_scripting_language_reference_card_A4.pdf)
+*   [AMWG-Diagnostics](http://www.cesm.ucar.edu/working_groups/Atmosphere/amwg-diagnostics-package/)
+
+# Panoply (a netCDF, HDF and GRIB Data Viewer)
+
+*   [Panoply netCDF, HDF and GRIB Data Viewer](http://www.giss.nasa.gov/tools/panoply/)
 
 
 {% include links.md %}
