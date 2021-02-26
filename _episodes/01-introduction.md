@@ -28,7 +28,8 @@ CMIP6 is the undergoing phase started in 2015.
 *   [ESGF CMPI6 data search and download portal](https://esgf-node.llnl.gov/search/cmip6/)
 *   [CMIP6 overview paper: Eyring et al., 2016](https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.html)
 *   [CMIP6 scenario overview paper: O'Neill et al., 2016](https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf)
-
+*   [CMIP6 data frenquency list](http://clipc-services.ceda.ac.uk/dreq/index/miptable.html)
+*   [CMIP6 variables list](http://clipc-services.ceda.ac.uk/dreq/index/var.html)
 
 # CESM
 
