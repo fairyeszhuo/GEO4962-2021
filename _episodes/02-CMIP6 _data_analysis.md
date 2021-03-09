@@ -1,5 +1,5 @@
 ---
-title: "Get familiar with netCDF data format and the visualization process"
+title: "Get familiar with CMIP6 data and the netCDF data visualization process"
 teaching: 30
 exercises: 60
 questions:
