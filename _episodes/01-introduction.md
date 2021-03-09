@@ -1,17 +1,18 @@
 ---
-title: "Introduction on model"
+title: "Introduction on climate models"
 teaching: 30
 exercises: 0
 questions:
-- "What are CMIP6 climate models?"
+- "What are CMIP6 and climate models?"
 objectives:
-- "Learn about CMIP6 models"
-- "Learn about CESM，MPI-ESM, NorESM"
+- "Learn about CMIP6"
+- "Learn about CESM，MPI-ESM, NorESM, UKESM"
 keypoints:
 - "CMIP6"
 - "CESM"
 - "MPI-ESM"
 - "NorESM"
+- "UKESM"
 ---
 
 *  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.png">
