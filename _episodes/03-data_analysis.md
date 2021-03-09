@@ -3,20 +3,51 @@ title: "Get familiar with netCDF data format and the visualization process"
 teaching: 30
 exercises: 60
 questions:
+- "How to get access to Jupyterhub?"
+- "How is the CMIP6 data stored?"
 - "What is netCDF data format?"
 - "How to quickly inspect and visualize netCDF data files?"
 objectives:
+- "Learn about CMIP6 data"
 - "Learn about netCDF data format"
 - "Learn to inspect a netCDF file"
 - "Learn to quickly visualize a netCDF file"
 keypoints:
-- "data visualization"
-- "High-Performance Computing"
+- "Jupyterhub"
+- "CMIP6 data visualization"
 - "netCDF"
 - "ncdump"
 - "ncview"
 ---
 
+#  Setup instructions for accessing Jupyterhub
+
+The CMIP6 data analysis will be conducted directly at [jupyterhub](https://jupyter.org/hub). We will be using [https://climate.uiogeo-apps.sigma2.no/](https://climate.uiogeo-apps.sigma2.no/).
+
+- You should have received an email message titled "JupyterHub links for GEO4962". If not please request it to the course organizers.
+- Follow "invitation link" in the email message
+- If you don't already have a Feide guest user account (otherwise skip this step), click "Feide guest users".
+    - register a new account (do not use your UiO username as it may be confusing for everyone).
+    - finish the registration process
+    - click again on the "invitation link" in the email
+- Login with "Feide guest users"
+- Accept the different policies
+- Agree to become a member of the **NS1004K**: the browser should display the message "Loading group details"
+- Now go to [GEO4962 Jupyterhub](https://climate.uiogeo-apps.sigma2.no/)
+- Click "Sign in with Dataporten"
+- Login with Feide Guest User (Not your UiO username)
+- Finally the web browser should display a page with "jupyterlab" on the upper left side
+
+
+For later usage of the notebooks just use the [GEO4962 Jupyterhub link](https://climate.uiogeo-apps.sigma2.no/)
+
+ 
+The main advantage of using this machine is that your data are directly accessible from anywhere through a web 
+interface and the necessary post-processing and visualization packages we need are already available. 
+
+# CMIP6 data in [GEO4962 Jupyterhub](https://climate.uiogeo-apps.sigma2.no/)
+
+Structure: 
 
 # First practical: open a netCDF data file
 
