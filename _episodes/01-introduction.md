@@ -14,8 +14,8 @@ keypoints:
 - "NorESM"
 ---
 
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.png" width="500">
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MIPs.jpg" width="500">
+*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.png">
+*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MIPs.jpg">
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
@@ -100,7 +100,7 @@ The further development of NorESM will be supported by the [Infrastructure for N
 
 # UKESM
 
-*  <img src="../fig/UKESM.jpg">
+*  <img src="../fig/UKESM1.jpg">
 
 The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of components that represent both physical and biogeo-chemical aspects of the Earth's atmosphere, ocean, cryosphere, and land systems. It is built on the recentHadley Centre Global Environment Model Version 3 Global Coupled (GC) climate configuration, HadGEM3GC3.1 (Kuhlbrodt et al., 2018; Williams et al., 2017). 
 
