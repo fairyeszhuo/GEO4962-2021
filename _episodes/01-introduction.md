@@ -15,8 +15,8 @@ keypoints:
 - "UKESM"
 ---
 
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP_logo_v4.png">
-*  <img src="https://github.com/MetOs-UiO/GEO4962/blob/gh-pages/fig/CMIP6_MIPs.jpg">
+*  <img src="../fig/CMIP_logo_v4.png">
+*  <img src="../fig/CMIP6_MIPs.jpg">
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
