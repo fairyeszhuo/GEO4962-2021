@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Setup model experiments"
 teaching: 0
@@ -178,4 +179,6 @@ Now depending on your experiment case, you would have either to change the namel
 *   [Lowering Himalaya mountains](../13-himalaya/index.html)
 
 {% include links.md %}
+
+-->
 
