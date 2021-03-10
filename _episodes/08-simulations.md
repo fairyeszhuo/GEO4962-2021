@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Setup model experiments"
 teaching: 0
@@ -180,5 +179,4 @@ Now depending on your experiment case, you would have either to change the namel
 
 {% include links.md %}
 
--->
 
