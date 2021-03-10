@@ -66,8 +66,8 @@ Some facts about CESM:
 
 The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
 
-*   [Community Atmosphere Model (CAM6, CAM-CHEM, WACCM)](https://github.com/ESCOMP/CAM/wiki)
-*   [CAM-6 User's Guide](https://ncar.github.io/CAM/doc/build/html/users_guide/index.html)
+*   [CAM documentation](https://github.com/ESCOMP/CAM/wiki)
+*   [CAM6 User's Guide](https://ncar.github.io/CAM/doc/build/html/users_guide/index.html)
 
 * * *
 
