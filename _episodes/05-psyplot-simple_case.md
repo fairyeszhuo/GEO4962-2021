@@ -1,18 +1,17 @@
 ---
-title: "Analyze and visualize test model outputs with python using Jupyter notebooks"
+title: "Analyze and visualize CMIP6 data with python using Jupyter notebooks"
 teaching: 0
 exercises: 0
 questions:
 - "How to start/stop Jupyter notebooks in the Jupyterhub?"
-- "How to analyze and visualize CESM outputs with python?"
+- "How to analyze and visualize CMIP6 data with python?"
 - "What is the vertical coordinate in CESM?" 
 objectives:
 - "Learn about the Jupyter ecosystem"
-- "Learn to analyze CESM CAM outputs with the test run"
+- "Learn to analyze CMIP6 data with the test run"
 - "Learn about python packages for Earth System Modelling"
 keypoints:
 - "jupyterlab"
-- "hybrid sigma levels"
 - "xarray"
 ---
 
@@ -191,25 +190,6 @@ The Jupyter Notebook has two ways to get help:
 
 - Place the cursor inside the parentheses of the function, hold down shift, and press tab.
 - Or type a function name with a question mark after it.
-
-
-# Copy your output files from Saga to JupyterHub
-
-Start a new **Terminal** on your JupyterHub (this will be referred to hereafter as your "JupyterHub terminal") and type the following commands.
-
-<font color="blue">On the JupyterHub terminal:</font>
-
-~~~
-# Create a nwe folder for storing mod outputs
-mkdir -p $HOME/outputs/runs
-# Change directory
-cd $HOME/outputs/runs
-# Copy model outputs (remote synchronization)
-rsync -avzu --progress YOUR_USER_NAME@saga.sigma2.no:/cluster/work/users/YOUR_USER_NAME/archive/F2000climo-f19_g17 .
-# Go back to last directory
-cd -
-~~~
-{: .language-bash}
 
 
 # Map visualization with xarray
@@ -437,196 +417,9 @@ ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
 
 <img src="../fig/test-0009-01_T_vert_mean.png" width="800">
 
-## CESM vertical coordinate system
 
-The vertical coordinate is a **hybrid sigma-pressure system**. 
-
-The hybrid coordinate was developed by 
-[Simmons and Strüfing, 1981](https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49710945905) 
-in order to provide a general framework for a vertical coordinate which is terrain following at 
-the Earth’s surface, but reduces to a pressure coordinate at some point above the surface.
-
-In this system, the upper regions 
-of the atmosphere are discretized by pressure only. Lower vertical levels use 
-the sigma (i.e. p/ps) vertical coordinate smoothly merged in, with the lowest levels being 
-pure sigma. A schematic representation of the hybrid vertical coordinate and vertical indexing is 
-presented below. 
-
-<img src="../fig/hybrid_sigma_pressure_coordinates.png" height="400">
-
-The CESM system is defined such that closer to the earth's surface, the levels more closely resemble a pure sigma level, while the higher up you go, the more the levels are like pressure levels.
-
-The formula to use to determine the pressure at the edge of the layer K is : 
-
-<img src="../fig/sigma_levels.png" width="220">
-
-where Ps is the surface pressure and A and B are coefficients defined at each model level and stored in the netCDF model outputs.
-
-Let's have a look at the values of A and B:
-
-~~~
-print(ds.hyam)
-~~~
-{: .language-python}
-
-~~~ 
-<xarray.DataArray 'hyam' (lev: 32)>
-array([0.003643, 0.007595, 0.014357, 0.024612, 0.035923, 0.043194, 0.051677,
-       0.06152 , 0.073751, 0.087821, 0.103317, 0.121547, 0.142994, 0.168225,
-       0.178231, 0.170324, 0.161023, 0.15008 , 0.137207, 0.122062, 0.104245,
-       0.084979, 0.066502, 0.050197, 0.037189, 0.028432, 0.022209, 0.016407,
-       0.011075, 0.006255, 0.001989, 0.      ])
-Coordinates:
-  * lev      (lev) float64 3.643 7.595 14.36 24.61 ... 936.2 957.5 976.3 992.6
-Attributes:
-    long_name:  hybrid A coefficient at layer midpoints
-
-
-~~~
-{: .output}
-
-
-~~~
-print(ds.hybm)
-~~~
-{: .language-python}
-
-~~~ 
-<xarray.DataArray 'hybm' (lev: 32)>
-array([0.      , 0.      , 0.      , 0.      , 0.      , 0.      , 0.      ,
-       0.      , 0.      , 0.      , 0.      , 0.      , 0.      , 0.      ,
-       0.019677, 0.062504, 0.112888, 0.172162, 0.241894, 0.323931, 0.420442,
-       0.5248  , 0.624888, 0.713208, 0.78367 , 0.831103, 0.864811, 0.896237,
-       0.925124, 0.951231, 0.974336, 0.992556])
-Coordinates:
-  * lev      (lev) float64 3.643 7.595 14.36 24.61 ... 936.2 957.5 976.3 992.6
-Attributes:
-    long_name:  hybrid B coefficient at layer midpoints
-~~~
-{: .output}
-
-If we print these coefficients A and B and the level, we can clearly understand why at the top of the atmosphere, we have 
-pure pressure levels (B=0) and pure sigma levels at the bottom (A=0):
-
-~~~ 
-print("lev     A          B")
-for lev, a, b in zip (range(1,ds.dims['lev']+1), ds.hyam.values, ds.hybm.values):
-    print(lev, 1000*a, 1000*b)
-~~~
-{: .language-python}
-
-~~~
-lev     A          B
-1 3.64346569404006 0.0
-2 7.594819646328688 0.0
-3 14.356632251292467 0.0
-4 24.612220004200935 0.0
-5 35.92325001955032 0.0
-6 43.1937500834465 0.0
-7 51.67749896645546 0.0
-8 61.52049824595451 0.0
-9 73.75095784664154 0.0
-10 87.82123029232025 0.0
-11 103.31712663173676 0.0
-12 121.54724076390266 0.0
-13 142.99403876066208 0.0
-14 168.22507977485657 0.0
-15 178.2306730747223 19.677413627505302
-16 170.32432556152344 62.50429339706898
-17 161.02290898561478 112.8879077732563
-18 150.08028596639633 172.16161638498306
-19 137.20685988664627 241.89404398202896
-20 122.06193804740906 323.93063604831696
-21 104.24471274018288 420.44246196746826
-22 84.97915416955948 524.7995406389236
-23 66.50169566273689 624.8877346515656
-24 50.19678920507431 713.2076919078827
-25 37.188658490777016 783.6697101593018
-26 28.431948274374008 831.1028182506561
-27 22.20897749066353 864.8112714290619
-28 16.40738220885396 896.2371647357941
-29 11.074557900428772 925.1238405704498
-30 6.2549535650759935 951.230525970459
-31 1.9894090946763754 974.3359982967377
-32 0.0 992.556095123291
-
-~~~
-{: .output}
-
-
-We multiplied A and B by *1000* so that values are in **hPa**.
-
-So if we compute the pressure at the lowest model level in Oslo:
-
-~~~
-# Find the surface pressure of the grid cell near Oslo and convert from Pascal to hPa
-PS_oslo = ds['PS'].isel(time=0).sel(lat=60., lon=10.75, method='nearest')/100. 
-
-# Convert the lowest model level from sigma to pressure
-p_bottom_oslo = ds.hyam[-1] + ds.hybm[-1]*PS_oslo
-print("Oslo (hPa)")
-print("PS = ", PS_oslo.values, " Lowest model level = ", p_bottom_oslo.values)
-
-~~~ 
-{: .language-python}
-
-~~~
-Oslo (hPa)
-PS =  948.606640625  Lowest model level =  941.545303026773
-~~~
-{: .output}
-
-So the pressure at the lowest model level is not that far from the surface pressure in Oslo.
-
-> ## And what about the Mount Everest?
-> Compute the pressure value at the lowest model level (close to the surface) for lat=28 and lon=86.5 (Everest top)
-> 
-> > ## Solution
-> > 
-> > ~~~
-> > # First find the value of the surface pressure at Everest and convert to hPa
-> > PS_everest = ds['PS'].isel(time=0).sel(lat=28., lon=86.5, method='nearest')/100. 
-> > # Then proceed as for Oslo
-> > print(PS_everest)
-> > ~~~
-> > {: .language-python}
-> > 
-> > ~~~
-> > <xarray.DataArray 'PS' ()>
-> > array(756.7215625)
-> > Coordinates:
-> >     lat      float64 27.47
-> >     lon      float64 87.5
-> >     time     float64 2.951e+03
-> > ~~~
-> > {: .output}
-> > 
-> > And now we compute the pressure at the lowest model level:
-> > 
-> > ~~~
-> > p_bottom_everest = ds.hyam[-1] + ds.hybm[-1]*PS_everest
-> > print(p_bottom_everest)
-> > ~~~
-> > {: .language-python}
-> > 
-> > ~~~
-> > <xarray.DataArray ()>
-> > array(751.08859917)
-> > Coordinates:
-> >     lev      float64 992.6
-> >     lat      float64 27.47
-> >     lon      float64 87.5
-> >     time     float64 2.951e+03
-> > ~~~
-> > {: .output}
-> > This clearly shows that the lowest level pressure value we have at the top of Mount Everest is 751 hPa, quite different from the corresponding sigma level (992.6).
-> {: .solution}
-{: .challenge}
-
-More information can be found in [Description of the NCAR Community Atmosphere Model (CAM 3.0)](http://www.cesm.ucar.edu/models/atm-cam/docs/description/description.pdf).
-
-Having pressure values (hPa) as the vertical coordinate, it is clear that we need to revert the
-vertical axis to get the lower values at the top and the highest values at the bottom:
+### Adjust vertical axis
+Having pressure values (hPa) as the vertical coordinate, it is clear that we need to revert the vertical axis to get the lower values at the top and the highest values at the bottom:
 
 ~~~
 ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
@@ -637,9 +430,7 @@ plt.ylim(plt.ylim()[::-1])
 
 <img src="../fig/test-0009-01_T_reversed.png" width="800">
 
-The vertical axis is labelled as "hybrid level at midpoints". Again, not pressure levels but still we 
-usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and 
-change the units of the vertical axis from "scalar" to "Log10". 
+For pressure levels, we usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and change the units of the vertical axis from "scalar" to "Log10". 
 
 ~~~
 ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
