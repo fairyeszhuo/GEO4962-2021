@@ -60,7 +60,7 @@ Some facts about CESM:
 *   [CESM scientifically validated configurations](http://www.cesm.ucar.edu/models/scientifically-supported.html)
 *   [CESM bulletin board](http://bb.cgd.ucar.edu/)
 *   [CESM support policy](http://www.cesm.ucar.edu/about/support.html)
-*   [CESM discuss forum]{https://bb.cgd.ucar.edu/cesm/}
+*   [CESM discuss forum](https://bb.cgd.ucar.edu/cesm/)
 *   [Introduction on atmospheric configurations (compsets)]{https://ncar.github.io/CAM/doc/build/html/users_guide/atmospheric-configurations.html}
 *   [CESM2 introduction paper: Danabasoglu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001916)
 
@@ -99,7 +99,7 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 
 *   [MPI-ESM in CMIP5 introduction paper: Giorgetta et al., 2013](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jame.20038)
 *   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
-*   [The Max Planck Institute for Meteorology Earth System Model special collections] (<add linkl>)
+*   [The Max Planck Institute for Meteorology Earth System Model special collections](<add linkl>)
 *   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
 
 
@@ -110,9 +110,9 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of components that represent both physical and bio-geochemical aspects of the Earth's atmosphere, ocean, cryosphere, and land systems. It is built on the recent Hadley Centre Global Environment Model Version 3 Global Coupled (GC) climate configuration, HadGEM3GC3.1 (Kuhlbrodt et al., 2018; Williams et al., 2017). 
 
 *   [UKESM web page](https://ukesm.ac.uk/)
-*   [UK models for CMIP6]{https://ukesm.ac.uk/cmip6/}
-*   [The UK Earth System Models for CMIP6 special collections]{https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.UKESM1}
-*   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001370)
+*   [UK models for CMIP6](https://ukesm.ac.uk/cmip6/)
+*   [The UK Earth System Models for CMIP6 special collections](https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.UKESM1)
+*   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001370)
 
 
 {% include links.md %}
