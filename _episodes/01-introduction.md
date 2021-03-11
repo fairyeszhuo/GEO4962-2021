@@ -62,7 +62,7 @@ Some facts about CESM:
 *   [CESM support policy](http://www.cesm.ucar.edu/about/support.html)
 *   [CESM discuss forum]{https://bb.cgd.ucar.edu/cesm/}
 *   [Introduction on atmospheric configurations (compsets)]{https://ncar.github.io/CAM/doc/build/html/users_guide/atmospheric-configurations.html}
-*   [CESM2 introuction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019MS001916}
+*   [CESM2 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019MS001916}
 
 ## CESM2/CAM6
 
@@ -77,7 +77,7 @@ The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric compon
 
 The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major update of the whole atmosphere modeling capability in the Community Earth System Model 2 (CESM2), featuring enhanced physical, chemical and aerosol parameterizations. There are improvements in high-latitude climate variability at the surface and sea ice extent in WACCM6 over the lower top version of the model (CAM6) that comes from the extended vertical domain and expanded aerosol chemistry in WACCM6, highlighting the importance of the stratosphere and tropospheric chemistry for high-latitude climate variability.
 
-*   [WACCM6 Introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019JD030943}
+*   [WACCM6 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019JD030943}
 
 # NorESM
 
@@ -89,30 +89,30 @@ The further development of NorESM will be supported by the [Infrastructure for N
 *   [NorESM code access](https://github.com/NorESMhub/NorESM)
 *   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
 *   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
-*   NorESM2 reference: Seland et al 2020 (https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
+*   [NorESM2 introduction paper: Seland et al 2020] (https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
 
 # MPI-ESM
 
 *  <img src="../fig/MPI-ESM1.2.jpg">
 
-The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is the latest model version, which consists of four model components and a coupler, which are connected as itwas done in the predecessor MPI-ESM (Figure 1, Giorgetta et al., 2013). The ocean dynamical model,MPIOM1.6, directly advects tracers of the ocean biogeochemistry model, HAMOCC6. The atmospheremodel, ECHAM6.3, is directly coupled to the land model, JSBACH3.2, through surface exchange of mass,momentum, and heat. These two major model blocks are then coupled via the OASIS3-MCT coupler (Craiget al., 2017). 
+The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is the latest model version used in CMIP6, which consists of four model components and a coupler, which are connected as itwas done in the predecessor MPI-ESM (Figure 1, Giorgetta et al., 2013). The ocean dynamical model, MPIOM1.6, directly advects tracers of the ocean biogeochemistry model, HAMOCC6. The atmosphere model, ECHAM6.3, is directly coupled to the land model, JSBACH3.2, through surface exchange of mass, momentum, and heat. These two major model blocks are then coupled via the OASIS3-MCT coupler (Craiget al., 2017). 
 
-*   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
-*   [The latest version MPI-ESM1.2 introduciton paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018MS001400}
 *   [MPI-ESM in CMIP5 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/jame.20038}
-*   [The Max Planck Institute for Meteorology Earth System Model special collections]{https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.MPIESM1}
+*   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
+*   [The Max Planck Institute for Meteorology Earth System Model special collections] (<add linkl>)
+*   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
 
 
 # UKESM
 
 *  <img src="../fig/UKESM1.jpg">
 
-The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of components that represent both physical and biogeo-chemical aspects of the Earth's atmosphere, ocean, cryosphere, and land systems. It is built on the recentHadley Centre Global Environment Model Version 3 Global Coupled (GC) climate configuration, HadGEM3GC3.1 (Kuhlbrodt et al., 2018; Williams et al., 2017). 
+The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of components that represent both physical and bio-geochemical aspects of the Earth's atmosphere, ocean, cryosphere, and land systems. It is built on the recent Hadley Centre Global Environment Model Version 3 Global Coupled (GC) climate configuration, HadGEM3GC3.1 (Kuhlbrodt et al., 2018; Williams et al., 2017). 
 
 *   [UKESM web page]{https://ukesm.ac.uk/}
 *   [UK models for CMIP6]{https://ukesm.ac.uk/cmip6/}
 *   [The UK Earth System Models for CMIP6 special collections]{https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.UKESM1}
-*   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2018MS001370}
+*   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001370)
 
 
 {% include links.md %}
