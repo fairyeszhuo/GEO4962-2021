@@ -81,7 +81,7 @@ The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major updat
 
 # NorESM
 
-The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. The NorESM2 version is part of CMIP6 partispating with two different resolutions called NorESM2 with medium (~1 deg) and low (~2 deg) resolution in the atmosphere respectively (called NorESM-MM/NorESM-LM in the ESGF data folder).  
+The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. The NorESM2 version is part of CMIP6 participating with two different resolutions called NorESM2 with medium (~1 deg) and low (~2 deg) resolution in the atmosphere respectively (called NorESM-MM/NorESM-LM in the ESGF data folder).  
 
 The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
 
@@ -95,7 +95,7 @@ The further development of NorESM will be supported by the [Infrastructure for N
 
 *  <img src="../fig/MPI-ESM1.2.jpg">
 
-The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is the latest model version used in CMIP6, which consists of four model components and a coupler, which are connected as itwas done in the predecessor MPI-ESM (Figure 1, Giorgetta et al., 2013). The ocean dynamical model, MPIOM1.6, directly advects tracers of the ocean biogeochemistry model, HAMOCC6. The atmosphere model, ECHAM6.3, is directly coupled to the land model, JSBACH3.2, through surface exchange of mass, momentum, and heat. These two major model blocks are then coupled via the OASIS3-MCT coupler (Craiget al., 2017). 
+The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is the latest model version used in CMIP6, which consists of four model components and a coupler, which are connected as itwas done in the predecessor MPI-ESM (Figure 1, Giorgetta et al., 2013). The ocean dynamical model, MPIOM1.6, directly advects tracers of the ocean biogeochemistry model, HAMOCC6. The atmosphere model, ECHAM6.3, is directly coupled to the land model, JSBACH3.2, through surface exchange of mass, momentum, and heat. These two major model blocks are then coupled via the OASIS3-MCT coupler (Craiget al., 2017). MPI-ESM1.2 is part of CMIP6 participating with three different spatial and vertical resolutions in the atmosphere called high, low and coarse resolutions (named MPI-ESM-HR, -LR, -CR in the ESGF data folder). 
 
 *   [MPI-ESM in CMIP5 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/jame.20038}
 *   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
