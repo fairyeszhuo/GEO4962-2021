@@ -14,7 +14,7 @@ After finishing this course, students should understand:
 
 - Tropospheric Circulation,
 - Brewer Dobson Circulation,
-- Stratospheric Ozone distribution,
+- Stratospheric ozone distribution,
 - Dynamics and chemistry of key trace gases,
 - Climate change and the Ozone Hole.
 
