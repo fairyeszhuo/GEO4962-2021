@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Model topic: QBO"
 teaching: 0
@@ -51,3 +52,4 @@ rm -rf /projects/NS1000K/climate/GEO4962/outputs/$USER/runs
 
 {% include links.md %}
 
+-->
