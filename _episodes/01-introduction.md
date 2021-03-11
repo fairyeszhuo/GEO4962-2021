@@ -1,6 +1,6 @@
 ---
 title: "Introduction on climate models"
-teaching: 0
+teaching: 45 min 
 exercises: 0
 questions:
 - "What are CMIP6 and climate models?"
@@ -10,8 +10,6 @@ objectives:
 keypoints:
 - "CMIP6 models"
 - "CESM"
-- "CESM2/CAM6"
-- "CESM2/WACCM6"
 - "NorESM"
 - "MPI-ESM"
 - "UKESM"
