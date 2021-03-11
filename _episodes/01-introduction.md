@@ -61,7 +61,7 @@ Some facts about CESM:
 *   [CESM bulletin board](http://bb.cgd.ucar.edu/)
 *   [CESM support policy](http://www.cesm.ucar.edu/about/support.html)
 *   [CESM discuss forum](https://bb.cgd.ucar.edu/cesm/)
-*   [Introduction on atmospheric configurations (compsets)]{https://ncar.github.io/CAM/doc/build/html/users_guide/atmospheric-configurations.html}
+*   [Introduction on atmospheric configurations (compsets)](https://ncar.github.io/CAM/doc/build/html/users_guide/atmospheric-configurations.html)
 *   [CESM2 introduction paper: Danabasoglu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001916)
 
 ## CESM2/CAM6
