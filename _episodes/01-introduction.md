@@ -1,17 +1,19 @@
 ---
 title: "Introduction on climate models"
-teaching: 30
+teaching: 0
 exercises: 0
 questions:
 - "What are CMIP6 and climate models?"
 objectives:
 - "Learn about CMIP6"
-- "Learn about CESM，MPI-ESM, NorESM, UKESM"
+- "Learn about CESM，NorESM, MPI-ESM, UKESM"
 keypoints:
 - "CMIP6"
-- "CESM"
-- "MPI-ESM"
+   - "CESM:"
+   - "CAM6"
+- "WACCM6"
 - "NorESM"
+- "MPI-ESM"
 - "UKESM"
 ---
 
@@ -21,8 +23,8 @@ keypoints:
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
 The Coupled Model Intercomparison Project (CMIP) organized under the auspices of the World Climate Research Programme’s (WCRP) Working Group on Coupled Modelling
-(WGCM) started in 1995.The objective of CMIP is to better understand past, present, and future climate change arising from natural, unforced variability or in response to changes in radiative forcings in a multi-model context.  An important part of CMIP is to make the multi-model output publicly available in a standardized format for analysis by the wider climate community and users. The standardization of the model output in a specified format, and the collection, archival, and access of the model output through the Earth System Grid Federation (ESGF) data replication centres have facilitated multi-model analyses. 
-CMIP6 is the undergoing phase started in 2015. 
+(WGCM) started in 1995. The objective of CMIP is to better understand past, present, and future climate change arising from natural, unforced variability or in response to changes in radiative forcings in a multi-model context. An important part of CMIP is to make the multi-model output publicly available in a standardized format for analysis by the wider climate community and users. The standardization of the model output in a specified format, and the collection, archival, and access of the model output through the Earth System Grid Federation (ESGF) data replication centres have facilitated multi-model analyses. 
+CMIP6 in its undergoing phase started in 2015. 
 
 Website links
 *   [WCRP-WGCM: A Short Introduction to Climate Models - CMIP & CMIP6](https://www.wcrp-climate.org/wgcm-cmip)
@@ -37,7 +39,7 @@ Paper links
 *   [CMIP6 scenario overview paper: O'Neill et al., 2016](https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf)
 *   [CMIP6 data request overview paper](https://gmd.copernicus.org/articles/13/201/2020/)
 
-# CESM
+# CESM2
 
 *  <img src="../fig/cesm01.jpg">
 
@@ -62,7 +64,7 @@ Some facts about CESM:
 *   [Introduction on atmospheric configurations (compsets)]{https://ncar.github.io/CAM/doc/build/html/users_guide/atmospheric-configurations.html}
 *   [CESM2 introuction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019MS001916}
 
-## CAM6
+## CESM2/CAM6
 
 The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
 
@@ -71,11 +73,23 @@ The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric compon
 
 * * *
 
-## WACCM6
+## CESM2/WACCM6
 
 The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major update of the whole atmosphere modeling capability in the Community Earth System Model (CESM), featuring enhanced physical, chemical and aerosol parameterizations. There are improvements in high-latitude climate variability at the surface and sea ice extent in WACCM6 over the lower top version of the model (CAM6) that comes from the extended vertical domain and expanded aerosol chemistry in WACCM6, highlighting the importance of the stratosphere and tropospheric chemistry for high-latitude climate variability.
 
 *   [WACCM6 Introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019JD030943}
+
+# NorESM
+
+The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. 
+
+The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
+
+*   [NorESM Web page](https://www.noresm.org/)
+*   [NorESM code access](https://github.com/NorESMhub/NorESM)
+*   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
+*   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
+*   
 
 # MPI-ESM
 
@@ -88,16 +102,6 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 *   [MPI-ESM in CMIP5 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/jame.20038}
 *   [The Max Planck Institute for Meteorology Earth System Model special collections]{https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.MPIESM1}
 
-# NorESM
-
-The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. 
-
-The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
-
-*   [NorESM Web page](https://www.noresm.org/)
-*   [NorESM code access](https://github.com/NorESMhub/NorESM)
-*   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
-*   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
 
 # UKESM
 
