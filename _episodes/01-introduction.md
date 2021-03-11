@@ -97,7 +97,7 @@ The further development of NorESM will be supported by the [Infrastructure for N
 
 The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM1.2) is the latest model version used in CMIP6, which consists of four model components and a coupler, which are connected as itwas done in the predecessor MPI-ESM (Figure 1, Giorgetta et al., 2013). The ocean dynamical model, MPIOM1.6, directly advects tracers of the ocean biogeochemistry model, HAMOCC6. The atmosphere model, ECHAM6.3, is directly coupled to the land model, JSBACH3.2, through surface exchange of mass, momentum, and heat. These two major model blocks are then coupled via the OASIS3-MCT coupler (Craiget al., 2017). MPI-ESM1.2 is part of CMIP6 participating with three different spatial and vertical resolutions in the atmosphere called high, low and coarse resolutions (named MPI-ESM-HR, -LR, -CR in the ESGF data folder). 
 
-*   [MPI-ESM in CMIP5 introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/jame.20038}
+*   [MPI-ESM in CMIP5 introduction paper: Giorgetta et al., 2013](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jame.20038)
 *   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
 *   [The Max Planck Institute for Meteorology Earth System Model special collections] (<add linkl>)
 *   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
