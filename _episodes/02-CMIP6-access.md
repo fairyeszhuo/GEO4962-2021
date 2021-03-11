@@ -1,7 +1,7 @@
 ---
 title: "Get familiar with CMIP6 data and the netCDF data visualization process"
-teaching: 30
-exercises: 60
+teaching: 0
+exercises: 0
 questions:
 - "How to get access to Jupyterhub?"
 - "How to start/stop Jupyter notebooks in the Jupyterhub?"
