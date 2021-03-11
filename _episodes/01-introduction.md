@@ -66,7 +66,7 @@ Some facts about CESM:
 
 ## CESM2/CAM6
 
-The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
+The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM2 used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
 
 *   [CAM documentation](https://github.com/ESCOMP/CAM/wiki)
 *   [CAM6 User's Guide](https://ncar.github.io/CAM/doc/build/html/users_guide/index.html)
@@ -75,13 +75,13 @@ The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric compon
 
 ## CESM2/WACCM6
 
-The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major update of the whole atmosphere modeling capability in the Community Earth System Model (CESM), featuring enhanced physical, chemical and aerosol parameterizations. There are improvements in high-latitude climate variability at the surface and sea ice extent in WACCM6 over the lower top version of the model (CAM6) that comes from the extended vertical domain and expanded aerosol chemistry in WACCM6, highlighting the importance of the stratosphere and tropospheric chemistry for high-latitude climate variability.
+The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major update of the whole atmosphere modeling capability in the Community Earth System Model 2 (CESM2), featuring enhanced physical, chemical and aerosol parameterizations. There are improvements in high-latitude climate variability at the surface and sea ice extent in WACCM6 over the lower top version of the model (CAM6) that comes from the extended vertical domain and expanded aerosol chemistry in WACCM6, highlighting the importance of the stratosphere and tropospheric chemistry for high-latitude climate variability.
 
 *   [WACCM6 Introduction paper]{https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2019JD030943}
 
 # NorESM
 
-The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. 
+The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. The NorESM2 version is part of CMIP6 partispating with two different resolutions called NorESM2 with medium (~1 deg) and low (~2 deg) resolution in the atmosphere respectively (called NorESM-MM/NorESM-LM in the ESGF data folder).  
 
 The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
 
@@ -89,7 +89,7 @@ The further development of NorESM will be supported by the [Infrastructure for N
 *   [NorESM code access](https://github.com/NorESMhub/NorESM)
 *   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
 *   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
-*   
+*   NorESM2 reference: Seland et al 2020 (https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
 
 # MPI-ESM
 
