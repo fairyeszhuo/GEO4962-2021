@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Setup
 ---
 
@@ -45,3 +45,4 @@ Download the free version [here](https://mobaxterm.mobatek.net/download.html).
 And follow the installation instructions. Let us know if you have any problems.
 
 {% include links.md %}
+-->
