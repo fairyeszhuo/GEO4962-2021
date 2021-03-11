@@ -1,6 +1,6 @@
 ---
 title: "Introduction on climate models"
-teaching: 45 min 
+teaching: 45 
 exercises: 0
 questions:
 - "What are CMIP6 and climate models?"
