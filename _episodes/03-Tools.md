@@ -1,11 +1,11 @@
 ---
-title: "Overview of analysis and visualization tools for netCDF data"
+title: "Tools for netCDF data analysis and visualization"
 teaching: 0
 exercises: 0
 questions:
 - "Tools"
 objectives:
-- "python, neview, nco, cdo, ncl, panoply etc."
+- "python, ncdump, cdo, nco, ncl, neview, panoply etc."
 keypoints:
 - "Some of the tools available to manipulate netCDF files"
 ---
@@ -61,25 +61,31 @@ This is what will mostly be used during this course.
 - [Automating testing](https://coderefinery.github.io/testing/)
 - [Code documentation](https://coderefinery.github.io/documentation/)
 
-# Ncview (a netCDF visual browser)
+# Ncdump (a netCDF simple browser) 
 
-*   See a [screenshot](http://cirrus.ucsd.edu/~pierce/software/ncview/ncview_screenshot.gif) of ncview in action.
-*   [Quick introduction](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html): Everything you need to know to get working in 5 minutes.
+ncdump can be used as a simple browser for netCDF data files, to display the dimension names and sizes; variable names, types, and shapes; attribute names and values; and optionally, the values of data for all variables or selected variables in a netCDF file.
 
-# NCO (netCDF Operators)
-
-*   [NCO (netCDF Operator website)](http://nco.sourceforge.net)
+*   [Instruction](http://www.bic.mni.mcgill.ca/users/sean/Docs/netcdf/guide.txn_79.html#:~:text=The%20ncdump%20tool%20generates%20an,variable%20data%20in%20the%20file.&text=Thus%20ncdump%20and%20ncgen%20can,between%20binary%20and%20ASCII%20representations.)
 
 # CDO (Climate Data Operators)
 
 *   [CDO (Climate Data operators) Documentation](https://code.zmaw.de/projects/cdo)
 *   [CDO Reference Card](https://code.zmaw.de/projects/cdo/embedded/cdo_refcard.pdf)
 
+# NCO (netCDF Operators)
+
+*   [NCO (netCDF Operator website)](http://nco.sourceforge.net)
+
 # NCL (Ncar Command Language)
 
 *   [NCL (Ncar Command Language)](https://www.ncl.ucar.edu/index.shtml)
 *   [NCL Reference Card](https://www.ncl.ucar.edu/Document/Reference_Cards/NCL_scripting_language_reference_card_A4.pdf)
 *   [AMWG-Diagnostics](http://www.cesm.ucar.edu/working_groups/Atmosphere/amwg-diagnostics-package/)
+
+# Ncview (a netCDF visual browser)
+
+*   See a [screenshot](http://cirrus.ucsd.edu/~pierce/software/ncview/ncview_screenshot.gif) of ncview in action.
+*   [Quick introduction](http://cirrus.ucsd.edu/~pierce/software/ncview/quick_intro.html): Everything you need to know to get working in 5 minutes.
 
 # Panoply (a netCDF, HDF and GRIB Data Viewer)
 
