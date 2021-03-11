@@ -6,7 +6,7 @@ questions:
 - "How to get access to Jupyterhub?"
 - "How to start/stop Jupyter notebooks in the Jupyterhub?"
 - "How is the CMIP6 data stored?"
-- "What is netCDF data format?"
+- "What is the netCDF data format?"
 - "How to quickly inspect and visualize netCDF data files?"
 objectives:
 - "Learn about CMIP6 data"
@@ -33,28 +33,29 @@ keypoints:
 
 # Introduction of Jupyterhub and JupyterLab
 
-The CMIP6 data analysis will be conducted directly at [jupyterhub](https://jupyter.org/hub). We will be using [https://climate.uiogeo-apps.sigma2.no/](https://climate.uiogeo-apps.sigma2.no/).
+The CMIP6 data analysis will be conducted directly at [jupyterhub](https://jupyter.org/hub). We will be using [https://geo4962.tacco.sigma2.no/](https://geo4962.tacco.sigma2.no/).
+
 
 ##  Setup instructions for accessing Jupyterhub
 
-- You should have received an email message titled "JupyterHub links for GEO4962". If not please request it to the course organizers.
-- Follow "invitation link" in the email message
-- If you don't already have a Feide guest user account (otherwise skip this step), click "Feide guest users".
+- You should have received an info email containing an invitation link. If not please request it to the course organizers.
+- Follow the invitation link in the email message
+- If you don't already have a Feide guest user account click "Feide guest users". (If you already have a Feide guest user account, skip this step)
     - register a new account (do not use your UiO username as it may be confusing for everyone).
     - finish the registration process
     - click again on the "invitation link" in the email
 - Login with "Feide guest users"
 - Accept the different policies
 - Agree to become a member of the **NS1004K**: the browser should display the message "Loading group details"
-- Now go to [GEO4962 Jupyterhub](https://climate.uiogeo-apps.sigma2.no/)
+- Now go to [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 - Click "Sign in with Dataporten"
 - Login with Feide Guest User (Not your UiO username)
 - Finally the web browser should display a page with "jupyterlab" on the upper left side
 
-For later usage of the notebooks just use the [GEO4962 Jupyterhub link](https://climate.uiogeo-apps.sigma2.no/)
+For later usage of the notebooks just use the [GEO4962 Jupyterhub link](https://geo4962.tacco.sigma2.no/)
 
 The main advantage of using this machine is that your data are directly accessible from anywhere through a web 
-interface and the necessary post-processing and visualization packages we need are already available.   
+interface and the necessary post-processing and visualization packages we need are readily available.   
 
 ## Login to the JupyterHub
 
@@ -87,7 +88,7 @@ When you manage to successfully login to the Jupyterhub, you should have the fol
 
 <img src="../fig/jupyterhub_panels.png" width="600">
 
-To start/stop your server, clock on **Control Panel**:
+To start/stop your server, click on **Control Panel**:
 
 <img src="../fig/jupyterhub_start_stop_server.png" width="600">
 
@@ -98,7 +99,7 @@ When your server is not running, the button "Stop My Server" does not appear and
 
 > ## Important note
 >
-> Make sure you stop your server once you have finished your session so it can release resources for next time. 
+> Make sure you stop your server once you have finished your session. We need to do this to release resources for next time. 
 >
 {: .callout}
 
@@ -108,11 +109,6 @@ By default, you will get the web-based user interface for Project Jupyter that i
 
 
 <img src="../fig/jupyterlab.png" width="600">
-
-> ## Remark
-> Do not worry if you do not have **pangeo** notebooks. We will see later how to change kernels within JupyterLab.
->
-{: .callout}
 
 ### Menu Bar
 
@@ -137,8 +133,8 @@ kernels and terminals, the command palette, and a list of tabs in the main work 
 
 If you move your mouse on the other icon of this left sidebar, a short information is given on its functionality.
 
-If you click on the "running man" icon, you can see what is currently running on your server and you can click on 
-"SHUTDOWN" to stop a running Python notebook or Terminal.
+If you click on the "stop button" icon, you can see what is currently running on your server and you can click on 
+"SHUT DOWN" to stop a running Python notebook or Terminal.
 
 <img src="../fig/jupyterlab_running.png" width="600">
 
@@ -154,15 +150,6 @@ Similarly, you can start a new Terminal by clicking on "Terminal" in the Launche
 > anymore in your JupyterLab, you can start a new one in "**File** --> **New Launcher**".
 {: .callout}
 
-
-In your terminal (from jupyterhub):
-
-~~~
-source activate pangeo
-python -m ipykernel install --user --name=pangeo
-~~~
-{: .language-bash}
-
 ### Create a new python 3 notebook
 
 Go back to the **File Browser** left sidebar tab and in the launcher select **Python 3** under the Notebook 
@@ -172,20 +159,9 @@ section:
 
 By default, your new notebook is named as "**Untitled.ipynb**":
 
-- **ipynb** is the extension for any Jupyter notebook and you should make sure all your notebook gets this extension (otherwise it is not recognized as a Jupyter notebook)
+- **ipynb** is the extension for any Jupyter notebook and you should make sure all your notebooks get this extension (otherwise it is not recognized as a Jupyter notebook)
 - you can rename your jupyter notebook with the tab "File --> Rename Notebook..." or 
   right click on its name.
-
-### Changing kernel
-
-All the python packages we need to analyzing and visualizing climate data are not available in the default **python 3** kernel.
-
-We would need to switch to **pangeo** kernel as shown on the figure below.
-
-- Click on **Python 3** (top right)
-- Select **pangeo** to switch kernel
-
-<img src="../fig/jupyterlab_pangeo_switch.png" width="600">
 
 
 ### Getting help in a jupyter notebook
