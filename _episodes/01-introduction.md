@@ -35,7 +35,7 @@ Website links
 Paper links
 *   [CMIP6 overview paper: Eyring et al., 2016](https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.html)
 *   [CMIP6 scenario overview paper: O'Neill et al., 2016](https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf)
-*   [CMIP6 data request overview paper](https://gmd.copernicus.org/articles/13/201/2020/)
+*   [CMIP6 data request overview paper: Juckes et al., 2020](https://gmd.copernicus.org/articles/13/201/2020/)
 
 # CMIP6 models:
 
@@ -99,7 +99,7 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 
 *   [MPI-ESM in CMIP5 introduction paper: Giorgetta et al., 2013](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jame.20038)
 *   [MPI-ESM in CMIP6](https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6)
-*   [The Max Planck Institute for Meteorology Earth System Model special collections](<add linkl>)
+*   [The Max Planck Institute for Meteorology Earth System Model special collections](https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.MPIESM1)
 *   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
 
 
