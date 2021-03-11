@@ -109,7 +109,7 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 
 The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of components that represent both physical and bio-geochemical aspects of the Earth's atmosphere, ocean, cryosphere, and land systems. It is built on the recent Hadley Centre Global Environment Model Version 3 Global Coupled (GC) climate configuration, HadGEM3GC3.1 (Kuhlbrodt et al., 2018; Williams et al., 2017). 
 
-*   [UKESM web page]{https://ukesm.ac.uk/}
+*   [UKESM web page](https://ukesm.ac.uk/)
 *   [UK models for CMIP6]{https://ukesm.ac.uk/cmip6/}
 *   [The UK Earth System Models for CMIP6 special collections]{https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.UKESM1}
 *   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001370)
