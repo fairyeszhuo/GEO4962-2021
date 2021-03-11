@@ -8,10 +8,10 @@ objectives:
 - "Learn about CMIP6"
 - "Learn about CESM，NorESM, MPI-ESM, UKESM"
 keypoints:
-- "CMIP6"
-   - "CESM:"
-   - "CAM6"
-- "WACCM6"
+- "CMIP6 models"
+- "CESM"
+- "CESM2/CAM6"
+- "CESM2/WACCM6"
 - "NorESM"
 - "MPI-ESM"
 - "UKESM"
@@ -39,7 +39,9 @@ Paper links
 *   [CMIP6 scenario overview paper: O'Neill et al., 2016](https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf)
 *   [CMIP6 data request overview paper](https://gmd.copernicus.org/articles/13/201/2020/)
 
-# CESM2
+# CMIP6 models:
+
+# CESM
 
 *  <img src="../fig/cesm01.jpg">
 
