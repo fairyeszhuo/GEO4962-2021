@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Analyzing CMIP6 data on model topics"
 teaching: 0
@@ -326,3 +327,4 @@ fig.colorbar(cs, cax=cbar_ax, label=TSco2.units,
 
 {% include links.md %}
 
+-->
