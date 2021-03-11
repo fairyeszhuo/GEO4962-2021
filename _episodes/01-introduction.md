@@ -100,7 +100,7 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 *   [MPI-ESM in CMIP5 introduction paper: Giorgetta et al., 2013](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/jame.20038)
 *   [MPI-ESM in CMIP6]{https://mpimet.mpg.de/en/science/projects/integrated-activities/cmip6}
 *   [The Max Planck Institute for Meteorology Earth System Model special collections] (<add linkl>)
-*   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
+*   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
 
 
 # UKESM
