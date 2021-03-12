@@ -372,26 +372,24 @@ Now instead of selecting one longitude, we average over all the longitudes,
 using the *mean* function:
 
 ~~~
-ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
+ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 ~~~
 {: .language-python}
 
-
-<img src="../fig/test-0009-01_T_vert_mean.png" width="800">
-
+<img src="../fig/ep04-f10-test-ua-lat.png" width="800">
 
 ### Adjust vertical axis
 Having pressure values (hPa) as the vertical coordinate, it is clear that we need to revert the vertical axis to get the lower values at the top and the highest values at the bottom:
 
 ~~~
-ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
+ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 plt.ylim(plt.ylim()[::-1])
 ~~~
 {: .language-python}
 
+<img src="../fig/ep04-f11-test-ua-lat_reverse_plev.png" width="800">
 
-<img src="../fig/test-0009-01_T_reversed.png" width="800">
-
+<!--
 For pressure levels, we usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and change the units of the vertical axis from "scalar" to "Log10". 
 
 ~~~
@@ -417,15 +415,16 @@ plt.ylim(top=10)
 
 <img src="../fig/test-0009-01_T_reversed_log_top.png" width="800">
 
-> ## Georeferenced Latitude-Vertical plot with your model outputs
-> - Use data from your own experiment `F2000climo-f19_g17` to generate 
-> georeferenced Latitude-Vertical plot for U and T. 
+-->
+
+> ## Georeferenced Latitude-Vertical plot with CMIP6 model data
+> - Use data from the model you choose to generate georeferenced Latitude-Vertical plot for U and T. 
 >
 > **Tips**: To read your model outputs, use: 
 >
 > ~~~
-> path = 'outputs/runs/F2000climo-f19_g17/atm/hist/' 
-> filename = path + 'F2000climo-f19_g17.cam.h0.0014-01.nc' 
+> path = '#YOUR-MODEL-DATA-PATH' 
+> filename = path + '#YOUR-MODEL-DATA-FILE' 
 > ~~~
 > {: .language-python}
 >
