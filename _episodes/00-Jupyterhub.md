@@ -90,7 +90,7 @@ When your server is not running, the button "Stop My Server" does not appear and
 >
 {: .callout}
 
-## JupyterLab
+## The JupyterLab Interface
 
 By default, you will get the web-based user interface for Project Jupyter that is called [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
 
