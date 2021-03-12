@@ -13,7 +13,8 @@ keypoints:
 - "xarray"
 ---
 
-# Post-processing and Visualization
+<!-- # Post-processing and Visualization -->
+# Visualization
 
 <img src="../fig/visualization.png">
 
