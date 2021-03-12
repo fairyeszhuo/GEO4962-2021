@@ -4,11 +4,11 @@ title: "CMIP6 model topics"
 teaching: 0
 exercises: 0
 questions:
-- "SSW"
-- "QBO"
-- "BDC"
-- "ENSO"
-- "NAO"
+- "SSW..."
+- "QBO..."
+- "BDC..."
+- "ENSO..."
+- "NAO..."
 - "Monsoon circulation"
 objectives:
 - "Analyze CMIP6 data"
