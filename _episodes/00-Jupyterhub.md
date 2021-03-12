@@ -18,9 +18,12 @@ keypoints:
 	* [JupyterLab](#jupyterlab)
   
 
-# Introduction of Jupyterhub and JupyterLab
+# Introduction of Jupyterhub
 
 The CMIP6 data analysis will be conducted directly at [jupyterhub](https://jupyter.org/hub). We will be using [https://geo4962.tacco.sigma2.no/](https://geo4962.tacco.sigma2.no/).
+The main advantage of this is that all the data we need are directly accessible through the web 
+interface and the necessary post-processing and visualization packages we need are already available.   
+
 
 
 ##  Setup instructions for accessing Jupyterhub
@@ -40,9 +43,6 @@ The CMIP6 data analysis will be conducted directly at [jupyterhub](https://jupyt
 - Finally the web browser should display a page with "jupyterlab" on the upper left side
 
 For later usage of the notebooks just use the [GEO4962 Jupyterhub link](https://geo4962.tacco.sigma2.no/)
-
-The main advantage of using this machine is that your data are directly accessible from anywhere through a web 
-interface and the necessary post-processing and visualization packages we need are readily available.   
 
 ## Login to the JupyterHub
 
@@ -75,7 +75,7 @@ When you manage to successfully login to the Jupyterhub, you should have the fol
 
 <img src="../fig/jupyterhub_panels.png" width="600">
 
-To start/stop your server, click on **Control Panel**:
+To start/stop your server, click on **Hub Control Panel**:
 
 <img src="../fig/jupyterhub_start_stop_server.png" width="600">
 
