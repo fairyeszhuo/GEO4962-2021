@@ -1,5 +1,5 @@
 ---
-title: "CMIP6 data and nedCDF data format"
+title: "CMIP6 data and netCDF data format"
 teaching: 0
 exercises: 0
 questions:
@@ -10,9 +10,8 @@ objectives:
 - "Learn about CMIP6 data"
 - "Learn about netCDF data format"
 - "Learn to inspect a netCDF file"
-- "Learn to quickly visualize a netCDF file"
 keypoints:
-- "CMIP6 data visualization"
+- "CMIP6 data"
 - "netCDF"
 - "ncdump"
 ---
