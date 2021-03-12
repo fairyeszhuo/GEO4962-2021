@@ -23,7 +23,7 @@ keypoints:
 
 # CMIP6 data in [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 
-The most CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. The NorESM model data can be found in the **??** folder.
+The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. The NorESM model data is in a separate directory and can be found in the **shared-tacco-ns1004k-cmroot** folder.
 
 ## Overview of CMIP6 data Structure 
 
