@@ -53,23 +53,23 @@ Specify the path where CMIP6 model data is stored:
 path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/'
 filename = path + 'tas_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
-~~
+~~~
 {: .language-python}
 
-~~
+~~~
 ~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/tas_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
-~~
+~~~
 {: .output}
 
 Load netcdf file into an xarray dataset:
 
-~~
+~~~
 ds = xr.open_dataset(filename, decode_times=False)
 ds
-~~
+~~~
 {: .language-python}
 
-~~
+~~~
 <xarray.Dataset>
 Dimensions:    (lat: 192, lon: 288, nbnd: 2, time: 1980)
 Coordinates:
@@ -128,7 +128,7 @@ Attributes:
     branch_time_in_parent:  20075.0
     branch_time_in_child:   674885.0
     branch_method:          standard
-~~
+~~~
 {: .output}
 
 By default, **time** has not been decoded properly:
@@ -168,7 +168,7 @@ ds['time']=timedata
 
 Now we can plot the near-surface air temperature, to select which time step to plot use the isel() function:
 
-~~
+~~~
 #To plot the first time step
 ds.tas.isel(time=0).plot()
 ~~~
