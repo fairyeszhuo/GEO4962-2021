@@ -23,8 +23,85 @@ keypoints:
 
 # CMIP6 data in [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 
+The most CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. The NorESM model data can be found in the **??** folder.
+
 ## Overview of CMIP6 data Structure 
 
+CMIP6 model data in **shared-tacco-ns1004k-cmip**
+**shared-tacco-ns1004k-cmip/model-institute/model-name/experiment/ensemble-member/data-frequency/variable/grid/data-version**
+
+NorESM model data in **??**
+**??**
+
+To find historical monthly zonal wind data of **CESM2/WACCM** model
+~~
+cd ~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/
+ls
+~~
+{: .language-bash}
+
+~~
+ua_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
+~~
+{: .output}
+
+To find historcal daily precipitation data of **MPI-ESM** model
+~~
+cd ~/shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710
+ls
+~~
+{: .language-bash}
+
+~~
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18500101-18541231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18550101-18591231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18600101-18641231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18650101-18691231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18700101-18741231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18750101-18791231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18800101-18841231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18850101-18891231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18900101-18941231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_18950101-18991231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19000101-19041231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19050101-19091231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19100101-19141231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19150101-19191231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19200101-19241231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19250101-19291231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19300101-19341231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19350101-19391231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19400101-19441231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19450101-19491231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19500101-19541231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19550101-19591231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19600101-19641231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19650101-19691231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19700101-19741231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19750101-19791231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19800101-19841231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19850101-19891231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19900101-19941231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_19950101-19991231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20000101-20041231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20050101-20091231.nc
+pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc
+~~
+{: .output}
+
+
+To find historcal monthly temperature data of **UKESM** model
+~~
+cd ~/shared-tacco-ns1004k-cmip/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Amon/ta/gn/v20190406/
+ls
+~~
+{: .language-bash}
+
+~~
+ta_Amon_UKESM1-0-LL_historical_r1i1p1f2_gn_185001-194912.nc  
+ta_Amon_UKESM1-0-LL_historical_r1i1p1f2_gn_195001-201412.nc
+~~
+{: .output}
 
 ## First practical: open a netCDF data file
 
@@ -35,7 +112,6 @@ We do all the practicals at <font color="red">Jupyterhub</font>.
 *   [First look at a CMIP6 data file](#First-look-at-a-CMIP6-data-file)
 	*   [What is a netCDF file](#What-is-a-netcdf-file)
 	*   [Inspect a netCDF file](#inspect-a-netcdf-file)
-	*   [Quick visualization of a netCDF file](#quick-visualization-of-a-netcdf-file)
 
 ### First look at a CMIP6 data file
 
