@@ -25,18 +25,20 @@ keypoints:
 # CMIP6 data in [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 
 The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. 
+
 The NorESM model data is in a separate directory and can be found in the **shared-tacco-ns1004k-cmroot** folder.
 
 ## Overview of CMIP6 data Structure 
 
 CMIP6 model data in **shared-tacco-ns1004k-cmip**
+
 structure: shared-tacco-ns1004k-cmip/model-institute/model-name/experiment/ensemble-member/data-frequency/variable/grid/data-version
 
 NorESM model data in **shared-tacco-ns1004k-cmroot**
+
 structure: shared-tacco-ns1004k-cmroot/model-name/experiment/data-version/
 
-Data filename format: 
-variable_data-frequency_model-name_experiment_ensemble-member_grid_time-period.nc
+Data filename format: variable_data-frequency_model-name_experiment_ensemble-member_grid_time-period.nc
 
 ## Find CMIP6 model data
 
@@ -145,7 +147,7 @@ ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_201001-201412.nc
 We do all the practicals at <font color="red">Jupyterhub</font>.  
 
 *   [First look at a CMIP6 data file](#First-look-at-a-CMIP6-data-file)
-	*   [What is a netCDF file](#What-is-a-netcdf-file)
+	*   [What is a netCDF file](#What-is-a-netcdf-file?)
 	*   [Inspect a netCDF file](#inspect-a-netcdf-file)
 
 ### First look at a CMIP6 data file
