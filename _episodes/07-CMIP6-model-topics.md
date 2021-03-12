@@ -1,16 +1,22 @@
 <!--
 ---
-title: "Analyzing CMIP6 data on model topics"
+title: "CMIP6 model topics"
 teaching: 0
 exercises: 0
 questions:
-- "How to visualize QBO"
+- "SSW"
+- "QBO"
+- "BDC"
+- "ENSO"
+- "NAO"
+- "Monsoon circulation"
 objectives:
-- "Analyze the CMIP6 data"
+- "Analyze CMIP6 data"
+- "Interpret CMIP6 data"
 - "Prepare graphs using python"
 keypoints:
-- "Sudden stratospheric warming"
-- "Make custom plots"
+- "Analyze CMIP6 data"
+- "Interpret CMIP6 data"
 ---
 
 # Post processing and visualization
@@ -84,7 +90,7 @@ to obtain this:
 
 This figure is not very useful: we do not know which projection was used, there is no coastline, we would rather have a proper title, etc.
 
-To do that we need to add bit more information.
+To do that we need to add a bit more information.
 
 <font color="green">On jupyter:</font>
 
