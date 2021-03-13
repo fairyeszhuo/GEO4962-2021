@@ -131,7 +131,7 @@ plt.xlim(right=ds.TEMP.lat.max())
 ~~~
 {: .language-python}
 
-<img src="../fig/sparc_T_jan.png">
+<img src="../fig/sparc_T_jan.png" width="600">
 
 
 ### SPARC climatology: Plot zonal wind
@@ -150,7 +150,7 @@ plt.xlim(right=ds.TEMP.lat.max())
 ~~~
 {: .language-python}
 
-<img src="../fig/sparc_U_jan.png">
+<img src="../fig/sparc_U_jan.png" width="600">
 
 ### Multiple plots 
 
