@@ -66,7 +66,7 @@ print(filename)
 Load netcdf file into an xarray dataset:
 
 ~~~
-ds = xr.open_dataset(filename, decode_times=False)
+ds = xr.open_dataset(filename)
 ds
 ~~~
 {: .language-python}
@@ -77,11 +77,11 @@ Dimensions:    (lat: 192, lon: 288, nbnd: 2, time: 1980)
 Coordinates:
   * lat        (lat) float64 -90.0 -89.06 -88.12 -87.17 ... 88.12 89.06 90.0
   * lon        (lon) float64 0.0 1.25 2.5 3.75 5.0 ... 355.0 356.2 357.5 358.8
-  * time       (time) float64 6.749e+05 6.749e+05 ... 7.351e+05 7.351e+05
+  * time       (time) object 1850-01-15 12:00:00 ... 2014-12-15 12:00:00
 Dimensions without coordinates: nbnd
 Data variables:
     tas        (time, lat, lon) float32 ...
-    time_bnds  (time, nbnd) float64 ...
+    time_bnds  (time, nbnd) object ...
     lat_bnds   (lat, nbnd) float32 ...
     lon_bnds   (lon, nbnd) float32 ...
 Attributes:
@@ -133,6 +133,7 @@ Attributes:
 ~~~
 {: .output}
 
+<!-- 
 By default, **time** has not been decoded properly:
 
 ~~~
@@ -167,12 +168,20 @@ Then we change the time index by this new timedata:
 ds['time']=timedata
 ~~~
 {: .language-python}
+-->
 
-Now we can plot the near-surface air temperature, to select which time step to plot, we can use the isel() function:
+Now we can plot the near-surface air temperature. We can use the isel() function to choose which timestep, i.e. year and month, to plot:
 
 ~~~
 #To plot the first time step
 ds.tas.isel(time=0).plot()
+~~~
+
+Alternatively, we can access the different timesteps by label using the sel() function, like so:
+
+~~~
+# To plot May 1929
+ds.tas.sel(time='1929-05').plot()
 ~~~
 {: .language-python}
 
@@ -201,7 +210,8 @@ ds.tas.isel(time=0).plot()
 ## Use a scientific color map
 
 Using unscientific color maps like the rainbow (a.k.a. jet) color map distorts and hides the underlying data, while often making the figure unreadable to color-blind readers or when printed in black and white. 
-If you want to use a scientific color map (created by Fabio Crameri here at UiO), you can load it using the following statment in your Jupyter Notebook:
+Certain matplotlib colormaps, like the default "viridis" colormap in the plots above, avoid these problems.
+If you want access to a suite of scientific colormaps (created by Fabio Crameri here at UiO), you can load the following function using this statment in your Jupyter Notebook:
 
 ~~~
 %run shared-tacco-ns1004k/scripts/load_cmap.ipynb
@@ -209,7 +219,7 @@ If you want to use a scientific color map (created by Fabio Crameri here at UiO)
 {: .language-bash}
 More info about scientific color maps, as well as a list of included color maps [here](http://www.fabiocrameri.ch/colourmaps.php)
 
-The function can now be used as the color map argument when you plot:
+This function can now be used as the color map argument when you plot:
 
 ~~~
 ds.tas.isel(time=0).plot(cmap=load_cmap('vik'))
@@ -221,28 +231,23 @@ ds.tas.isel(time=0).plot(cmap=load_cmap('vik'))
 
 ## Plot 4D-fields such as Temperature
 		
-In the same way add another cell below the plot and display the temperature **ta** instead of the near-surface air temperature (tas). 
+Add another cell below the plot and display, in the same way, the temperature **ta** instead of the near-surface air temperature (tas). 
 
 ~~~
-#Open data file and read data
+# Open data file and read data
 path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ta/gn/v20190227/'
 filename = path + 'ta_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
-ds = xr.open_dataset(filename, decode_times=False)
+ds = xr.open_dataset(filename)
 
-#Decode the time
-timedata=pd.date_range(start=pd.to_datetime('1850-01-01'), end=pd.to_datetime('2014-12-31'), freq='M')
-print(timedata)
-ds['time']=timedata
-
-#Plot the first time step at 850 hPa pressure level
-ds.ta.isel(plev=2).plot(cmap=load_cmap('vik'))
+# Plot the first time step at the 850 hPa pressure level
+ds.ta.isel(time=0, plev=2).plot(cmap=load_cmap('vik'))
 ~~~
 {: .language-python}
 
 <img src="../fig/ep04-f04-test-ta.png" width="800">
 
-Contrary to **tas** which depends only on two horizontal dimensions (namely latitude and longitude) plus time, for **ta** there is an additional vertical dimension (plev).
+Contrary to **tas**, which depends only on two spatial dimensions (namely latitude and longitude) plus time, **ta** has an additional vertical dimension (plev).
 
 > ## What did we plot?
 >
@@ -260,18 +265,13 @@ Since ta and ua have an additional dimension (along the vertical), we also have 
 <font color="green">On jupyter:</font>
 
 ~~~
-#Open data file and read data
+# Open data file and read data
 path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/'
 filename = path + 'ua_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
-ds = xr.open_dataset(filename, decode_times=False)
+ds = xr.open_dataset(filename)
 
-#Decode the time
-timedata=pd.date_range(start=pd.to_datetime('1850-01-01'), end=pd.to_datetime('2014-12-31'), freq='M')
-print(timedata)
-ds['time']=timedata
-
-#Plot the first time step at higgest pressure level
+# Plot the first time step at higgest pressure level
 ds.ua.isel(plev=-1,time=0).plot(cmap=load_cmap('broc'))
 ~~~
 {: .language-python}
@@ -328,10 +328,10 @@ ds.ua.isel(plev=-1,time=0).plot(ax=ax,
 
 ax.coastlines()
 
-#Add gridlines with labels
-gl=ax.gridlines(color='lightgrey', linestyle='-', draw_labels=True)
+# Add gridlines with labels
+gl = ax.gridlines(color='lightgrey', linestyle='-', draw_labels=True)
 
-#Do not draw labels on the top and right of the map.
+# Do not draw labels on the top and right of the map.
 gl.xlabels_top = False
 gl.ylabels_right = False
 ~~~
@@ -407,14 +407,14 @@ plt.ylim(plt.ylim()[::-1])
 
 <img src="../fig/ep04-f12-test-ua-lat_reverse_hpa.png" width="800">
 
-We can also adjust the top of the figure. For pressure levels, we usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and change the units of the vertical axis from "scalar" to "Log10". 
+We can also adjust the top of the figure. 
+When the vertical axis is pressure levels, we can use a log scale to plot it so as to make it more intuitive to look at.
 
 ~~~
 ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 plt.ylim(plt.ylim()[::-1])
 plt.ylim(top=0.001)
 plt.yscale('log')
-plt.savefig('')
 ~~~
 {: .language-python}
 
