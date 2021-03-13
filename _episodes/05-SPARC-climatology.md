@@ -276,7 +276,7 @@ To help you:
 
 ### Which variables to analyze and why?
 
-You can analyze many variables from the control run to check its validity but at least **T** and **U** (zonal wind) as
+You can analyze many variables from the control run to check its validity but at least **T** (temperature) and **U** (zonal wind) as
 these two variables are the one contained in the SPARC climatology. 
 
 ### How to compute yearly means from the CMIP6 monthly data?
@@ -290,13 +290,11 @@ import xarray as xr
 import pandas as pd
 import glob
 import os
-%matplotlib inline
 
 files =  glob.glob(os.path.join('shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/Amon/ua/gn/v20190710/', 'ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_*'))
 # sort files so they appear by year/month
 files.sort()
-# Select files from year 1 and beyond
-files[0:]
+files
 ~~~
 {: .language-python}
 
@@ -337,26 +335,26 @@ files[0:]
 ~~~
 {: .output}
 
-Then we can open all these files:
+We can open all these files as a single xarray.Dataset:
 
 ~~~
-ds = xr.open_mfdataset(files[0:], decode_cf = False)
+ds = xr.open_mfdataset(files, combine='by_coords')
 ds
 ~~~
 {: .language-python}
-The command above takes a bit of time as it reads all the metadata of all the files but still does not load any data in memory yet.
+The command above takes a bit of time as it reads all the metadata of all the files, although it still does not load any data into memory.
 
 ~~~
 <xarray.Dataset>
 Dimensions:    (bnds: 2, lat: 192, lon: 384, plev: 19, time: 1980)
 Coordinates:
+  * plev       (plev) float64 1e+05 9.25e+04 8.5e+04 7e+04 ... 1e+03 500.0 100.0
   * lat        (lat) float64 -89.28 -88.36 -87.42 -86.49 ... 87.42 88.36 89.28
   * lon        (lon) float64 0.0 0.9375 1.875 2.812 ... 356.2 357.2 358.1 359.1
-  * plev       (plev) float64 1e+05 9.25e+04 8.5e+04 7e+04 ... 1e+03 500.0 100.0
-  * time       (time) float64 15.5 45.0 74.5 ... 6.019e+04 6.022e+04 6.025e+04
+  * time       (time) datetime64[ns] 1850-01-16T12:00:00 ... 2014-12-16T12:00:00
 Dimensions without coordinates: bnds
 Data variables:
-    time_bnds  (time, bnds) float64 dask.array<chunksize=(60, 2), meta=np.ndarray>
+    time_bnds  (time, bnds) datetime64[ns] dask.array<chunksize=(60, 2), meta=np.ndarray>
     lat_bnds   (time, lat, bnds) float64 dask.array<chunksize=(60, 192, 2), meta=np.ndarray>
     lon_bnds   (time, lon, bnds) float64 dask.array<chunksize=(60, 384, 2), meta=np.ndarray>
     ua         (time, plev, lat, lon) float32 dask.array<chunksize=(60, 19, 192, 384), meta=np.ndarray>
@@ -411,6 +409,7 @@ Attributes:
 ~~~
 {: .output}
 
+<!-- 
 By default, **time** has not been decoded properly:
 
 
@@ -446,8 +445,9 @@ Then we change the time index by this new timedata:
 ds['time']=timedata 
 ~~~
 {: .language-python}
+-->
 
-Then we group our data by month (January, February, etc.) by averaging all January together, etc.:
+We can apply functions to the xarray.Dataset. For example, we can first group the data by month and then average over each of these months. 
 
 ~~~
 dy = ds.groupby('time.month').mean('time')
@@ -457,31 +457,30 @@ dy
 
 ~~~
 <xarray.Dataset>
-Dimensions:    (bnds: 2, lat: 192, lon: 384, month: 12, plev: 19)
+Dimensions:   (bnds: 2, lat: 192, lon: 384, month: 12, plev: 19)
 Coordinates:
-  * lon        (lon) float64 0.0 0.9375 1.875 2.812 ... 356.2 357.2 358.1 359.1
-  * lat        (lat) float64 -89.28 -88.36 -87.42 -86.49 ... 87.42 88.36 89.28
-  * plev       (plev) float64 1e+05 9.25e+04 8.5e+04 7e+04 ... 1e+03 500.0 100.0
-  * month      (month) int64 1 2 3 4 5 6 7 8 9 10 11 12
+  * lat       (lat) float64 -89.28 -88.36 -87.42 -86.49 ... 87.42 88.36 89.28
+  * plev      (plev) float64 1e+05 9.25e+04 8.5e+04 7e+04 ... 1e+03 500.0 100.0
+  * lon       (lon) float64 0.0 0.9375 1.875 2.812 ... 356.2 357.2 358.1 359.1
+  * month     (month) int64 1 2 3 4 5 6 7 8 9 10 11 12
 Dimensions without coordinates: bnds
 Data variables:
-    time_bnds  (month, bnds) float64 dask.array<chunksize=(1, 2), meta=np.ndarray>
-    lat_bnds   (month, lat, bnds) float64 dask.array<chunksize=(1, 192, 2), meta=np.ndarray>
-    lon_bnds   (month, lon, bnds) float64 dask.array<chunksize=(1, 384, 2), meta=np.ndarray>
-    ua         (month, plev, lat, lon) float32 dask.array<chunksize=(1, 19, 192, 384), meta=np.ndarray>
+    lat_bnds  (month, lat, bnds) float64 dask.array<chunksize=(1, 192, 2), meta=np.ndarray>
+    lon_bnds  (month, lon, bnds) float64 dask.array<chunksize=(1, 384, 2), meta=np.ndarray>
+    ua        (month, plev, lat, lon) float32 dask.array<chunksize=(1, 19, 192, 384), meta=np.ndarray>
 ~~~
 {: .output}
 
 > ## Important note
-> As we are using *xarray*, computations are deferred which means that we still haven't loaded much in memory.
-> Computations will be done when we access data.
+> As we are using *xarray*, computations are deferred, which means that we still haven't loaded much in memory.
+> Computations will be done when we need to access the data, for example by plotting it.
 >
 {: .callout}
 
 
 ### How to save the results in a new netCDF file?
 
-You can use *to_netcdf* xarray method:
+You can use the *to_netcdf* xarray method:
 ~~~
 # To select variables and store to netCDF
 dy[['ua']].to_netcdf("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412_clim.nc")
@@ -489,7 +488,7 @@ dy[['ua']].to_netcdf("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412
 {: .language-python}
 
 
-You are now ready to visualize U and T from CMIP6 model data and start the exercise to compare with the SPARC climatology.
+You are now ready to visualize U and T from CMIP6 model data and start the exercise where you will compare this with the SPARC climatology.
 
 > ## Exercise
 > 
