@@ -11,6 +11,8 @@ objectives:
 keypoints:
 - "jupyterlab"
 - "xarray"
+- "pandas"
+- "matplotlib"
 ---
 
 <!-- # Post-processing and Visualization -->
@@ -379,7 +381,8 @@ ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 <img src="../fig/ep04-f10-test-ua-lat.png" width="800">
 
 ### Adjust vertical axis
-Having pressure values (hPa) as the vertical coordinate, it is clear that we need to revert the vertical axis to get the lower values at the top and the highest values at the bottom:
+
+Having pressure values as the vertical coordinate, it is clear that we need to revert the vertical axis to get the lower values at the top and the highest values at the bottom:
 
 ~~~
 ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
@@ -389,33 +392,37 @@ plt.ylim(plt.ylim()[::-1])
 
 <img src="../fig/ep04-f11-test-ua-lat_reverse_plev.png" width="800">
 
-<!--
-For pressure levels, we usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and change the units of the vertical axis from "scalar" to "Log10". 
+For pressure levels, we usually use hPa instead of Pa. 
 
 ~~~
-ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
+#Change pressure level from Pa to hPa
+hpa=ds.ua.plev/100
+ds['plev']=hpa
+ds.ua.plev.attrs['units'] = 'hPa'
+ds.ua.plev.attrs['standard_name'] = 'air_pressure'
+ds.ua.plev
+
+#plot
+ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 plt.ylim(plt.ylim()[::-1])
-plt.yscale('log')
 ~~~
 {: .language-python}
 
+<img src="../fig/ep04-f12-test-ua-lat_reverse_hpa.png" width="800">
 
-<img src="../fig/test-0009-01_T_reversed_log.png" width="800">
-
-We can also adjust the top of the figure:
+We can also adjust the top of the figure. For pressure levels, we usually use the log to plot it as it is more intuitive to analyze. For this, go to the tab "Grid" and change the units of the vertical axis from "scalar" to "Log10". 
 
 ~~~
-ds.T.mean(dim='lon').plot(cmap=load_cmap('vik'))
+ds.ua.sel(time="1850-01-31").mean(dim='lon').plot(cmap=load_cmap('broc'))
 plt.ylim(plt.ylim()[::-1])
+plt.ylim(top=0.001)
 plt.yscale('log')
-plt.ylim(top=10)
+plt.savefig('')
 ~~~
 {: .language-python}
 
+<img src="../fig/ep04-f13-test-ua-lat_reverse_hpa_top_log.png" width="800">
 
-<img src="../fig/test-0009-01_T_reversed_log_top.png" width="800">
-
--->
 
 > ## Georeferenced Latitude-Vertical plot with CMIP6 model data
 > - Use data from the model you choose to generate georeferenced Latitude-Vertical plot for U and T. 
