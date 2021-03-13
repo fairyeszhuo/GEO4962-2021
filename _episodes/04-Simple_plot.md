@@ -168,7 +168,7 @@ ds['time']=timedata
 ~~~
 {: .language-python}
 
-Now we can plot the near-surface air temperature, to select which time step to plot use the isel() function:
+Now we can plot the near-surface air temperature, to select which time step to plot, we can use the isel() function:
 
 ~~~
 #To plot the first time step
@@ -178,23 +178,18 @@ ds.tas.isel(time=0).plot()
 
 <img src="../fig/ep04-f01-test-tas.png" width="600">
 
-> ## Remark:
-> To make a plot from a jupyter notebook, you may need to add:
-> ~~~
-> %matplotlib inline
-> ~~~
-> {: .language-python}
-> 
-> This line is only valid in a jupyter notebook and cannot be used otherwise.
->
-{: .callout}
 
 # Customize your maps
 
 ##  Set figure size
 
+To adjust the figure, we can use the matplotlib package.
+
 ~~~
+#import python package
 import matplotlib as mpl
+
+#adjust figure size
 mpl.rcParams['figure.figsize'] = [10., 8.]
 ds.tas.isel(time=0).plot()
 ~~~ 
@@ -204,8 +199,10 @@ ds.tas.isel(time=0).plot()
 
 
 ## Use a scientific color map
+
 Using unscientific color maps like the rainbow (a.k.a. jet) color map distorts and hides the underlying data, while often making the figure unreadable to color-blind readers or when printed in black and white. 
 If you want to use a scientific color map (created by Fabio Crameri here at UiO), you can load it using the following statment in your Jupyter Notebook:
+
 ~~~
 %run shared-tacco-ns1004k/scripts/load_cmap.ipynb
 ~~~
@@ -213,6 +210,7 @@ If you want to use a scientific color map (created by Fabio Crameri here at UiO)
 More info about scientific color maps, as well as a list of included color maps [here](http://www.fabiocrameri.ch/colourmaps.php)
 
 The function can now be used as the color map argument when you plot:
+
 ~~~
 ds.tas.isel(time=0).plot(cmap=load_cmap('vik'))
 ~~~ 
@@ -223,7 +221,7 @@ ds.tas.isel(time=0).plot(cmap=load_cmap('vik'))
 
 ## Plot 4D-fields such as Temperature
 		
-In the same way add another cell below the plot and display the variable **ta** instead of the near-surface air temperature (tas). 
+In the same way add another cell below the plot and display the temperature **ta** instead of the near-surface air temperature (tas). 
 
 ~~~
 #Open data file and read data
@@ -244,8 +242,7 @@ ds.ta.isel(plev=2).plot(cmap=load_cmap('vik'))
 
 <img src="../fig/ep04-f04-test-ta.png" width="800">
 
-
-Contrary to tas which depends only on two horizontal dimensions (namely latitude and longitude) plus time, for ta there is an additional vertical dimension (plev).
+Contrary to **tas** which depends only on two horizontal dimensions (namely latitude and longitude) plus time, for **ta** there is an additional vertical dimension (plev).
 
 > ## What did we plot?
 >
