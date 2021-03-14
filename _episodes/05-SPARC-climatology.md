@@ -153,8 +153,8 @@ plt.xlim(right=ds.TEMP.lat.max())
 <img src="../fig/sparc_U_jan.png" width="600">
 
 ### Multiple plots 
-
-Here we give an example to generate 12 subplots (one per month) for the zonal wind using the Python **range(start, stop[, step])** function (remember that the range of integers ends at **stop - 1**):
+<!--
+To generate 12 subplots (one per month) for the zonal wind, we can use the Python **range(start, stop[, step])** function (remember that the range of integers ends at **stop - 1**):
 
 ~~~
 import xarray as xr
@@ -204,13 +204,15 @@ fig.colorbar(cs, cax=cbar_ax, label=ds.WIND.attrs['units'])
 
 ~~~
 {: .language-python}
-
+-->
+Here we show the SPARC climatology of zonal wind 
 <img src="../fig/sparc_U_all.png">
 
 > ## Make a multiple plot for the SPARC temperature
 >
 > Make the same kind of multiple plot but for the temperature instead. 
 >
+<!--
 > > ## Solution
 > > 
 > > ~~~
@@ -261,6 +263,7 @@ fig.colorbar(cs, cax=cbar_ax, label=ds.WIND.attrs['units'])
 > > <img src="../fig/sparc_T_all.png">
 > > 
 > {: .solution}
+-->
 >
 {: .challenge}
 
