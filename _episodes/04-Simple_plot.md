@@ -177,6 +177,8 @@ Now we can plot the near-surface air temperature. We can use the isel() function
 ds.tas.isel(time=0).plot()
 ~~~
 
+<img src="../fig/ep04-f01-test-tas.png" width="600">
+
 Alternatively, we can access the different timesteps by label using the sel() function, like so:
 
 ~~~
@@ -184,9 +186,6 @@ Alternatively, we can access the different timesteps by label using the sel() fu
 ds.tas.sel(time='1929-05').plot()
 ~~~
 {: .language-python}
-
-<img src="../fig/ep04-f01-test-tas.png" width="600">
-
 
 # Customize your maps
 
