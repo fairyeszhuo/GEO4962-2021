@@ -16,12 +16,12 @@ keypoints:
 - "ncdump"
 ---
 
-*   [CMIP6 data in the GEO4962 Jupyterhub](#CMIP6-data-in-the-GEO4962-Jupyterhub)
+*   [CMIP6 data in the GEO4962 Jupyterhub](#CMIP6-data-in-GEO4962-Jupyterhub)
   *   [Overview of CMIP6 data structure](#Overview-of-CMIP6-data-structure)
   *   [Find CMIP6 model data](#Find-CMIP6-model-data)
   *   [First look at a CMIP6 data file](#First-look-at-a-CMIP6-data-file)
 
-# CMIP6 data in [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
+# CMIP6 data in the [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 
 The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. 
 
