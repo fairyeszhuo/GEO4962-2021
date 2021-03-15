@@ -16,7 +16,7 @@ keypoints:
 ---
 
 *  <img src="../fig/CMIP_logo_v4.png">
-*  <img src="../fig/CMIP6_MIPs_v2016.jpg">
+*  <img src="../fig/CMIP6_MIPs_v2016.png">
 
 # CMIP6 - Coupled Model Intercomparison Project Phase 6
 
