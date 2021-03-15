@@ -16,8 +16,8 @@ keypoints:
 - "ncdump"
 ---
 
-*   [CMIP6 data in the GEO4962 Jupyterhub](#CMIP6-data-in-GEO4962-Jupyterhub)
-  *   [Overview of CMIP6 data structure](#Overview-of-CMIP6-data-Structure)
+*   [CMIP6 data in the GEO4962 Jupyterhub](#CMIP6-data-in-the-GEO4962-Jupyterhub)
+  *   [Overview of CMIP6 data structure](#Overview-of-CMIP6-data-structure)
   *   [Find CMIP6 model data](#Find-CMIP6-model-data)
   *   [First look at a CMIP6 data file](#First-look-at-a-CMIP6-data-file)
 
