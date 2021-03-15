@@ -18,7 +18,7 @@ After finishing this course, students should understand and handle:
 - Dynamics and chemistry of key trace gases,
 - Climate change and the Ozone Hole,
 - CMIP6 model data, plotting and analysis,
-- Complete a CMIP6 model topic stuy.
+- Complete a CMIP6 model topic study.
 
 <!-- this is an html comment -->
 
