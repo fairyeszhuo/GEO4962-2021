@@ -16,8 +16,8 @@ keypoints:
 - "ncdump"
 ---
 
-*   [CMIP6 data in GEO4962 Jupyterhub](#CMIP6-data-in-GEO4962-Jupyterhub)
-  *   [Overview of CMIP6 data Structure](#Overview-of-CMIP6-data-Structure)
+*   [CMIP6 data in the GEO4962 Jupyterhub](#CMIP6-data-in-GEO4962-Jupyterhub)
+  *   [Overview of CMIP6 data structure](#Overview-of-CMIP6-data-Structure)
   *   [Find CMIP6 model data](#Find-CMIP6-model-data)
   *   [First look at a CMIP6 data file](#First-look-at-a-CMIP6-data-file)
 
@@ -27,7 +27,7 @@ The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder.
 
 The NorESM model data is in a separate directory and can be found in the **shared-tacco-ns1004k-cmroot** folder.
 
-## Overview of CMIP6 data Structure 
+## Overview of CMIP6 data structure 
 
 CMIP6 model data in **shared-tacco-ns1004k-cmip**
 
@@ -53,7 +53,7 @@ ua_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
 ~~~
 {: .output}
 
-- To find historcal daily precipitation data of **MPI-ESM** model
+- To find historcal daily precipitation data of **MPI-ESM 1.2 HR** model
 ~~~
 cd ~/shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710
 ls
@@ -98,7 +98,7 @@ pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc
 {: .output}
 
 
-- To find historcal monthly temperature data of **UKESM** model
+- To find historcal monthly temperature data of **UKESM 1.0 LL** model
 ~~~
 cd ~/shared-tacco-ns1004k-cmip/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Amon/ta/gn/v20190406/
 ls
@@ -111,7 +111,7 @@ ta_Amon_UKESM1-0-LL_historical_r1i1p1f2_gn_195001-201412.nc
 ~~~
 {: .output}
 
-- To find historcal monthly zonal wind data of **NorESM** model
+- To find historcal monthly zonal wind data of **NorESM2 MM** model
 ~~~
 ~/shared-tacco-ns1004k-cmroot/NorESM2-MM/historical/v20191108
 ls *ua*Amon*
