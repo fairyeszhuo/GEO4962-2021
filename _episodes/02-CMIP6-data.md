@@ -53,6 +53,34 @@ ua_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
 ~~~
 {: .output}
 
+- To find historcal monthly zonal wind data of **NorESM2 MM** model
+~~~
+~/shared-tacco-ns1004k-cmroot/NorESM2-MM/historical/v20191108
+ls *ua*Amon*
+~~~
+{: .language-bash}
+
+~~~
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_185001-185912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_186001-186912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_187001-187912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_188001-188912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_189001-189912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_190001-190912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_191001-191912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_192001-192912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_193001-193912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_194001-194912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_195001-195912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_196001-196912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_197001-197912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_198001-198912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_199001-199912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_200001-200912.nc
+ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_201001-201412.nc
+~~~ 
+{: .output}
+
 - To find historcal daily precipitation data of **MPI-ESM 1.2 HR** model
 ~~~
 cd ~/shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710
@@ -111,33 +139,6 @@ ta_Amon_UKESM1-0-LL_historical_r1i1p1f2_gn_195001-201412.nc
 ~~~
 {: .output}
 
-- To find historcal monthly zonal wind data of **NorESM2 MM** model
-~~~
-~/shared-tacco-ns1004k-cmroot/NorESM2-MM/historical/v20191108
-ls *ua*Amon*
-~~~
-{: .language-bash}
-
-~~~
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_185001-185912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_186001-186912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_187001-187912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_188001-188912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_189001-189912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_190001-190912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_191001-191912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_192001-192912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_193001-193912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_194001-194912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_195001-195912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_196001-196912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_197001-197912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_198001-198912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_199001-199912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_200001-200912.nc
-ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_201001-201412.nc
-~~~ 
-{: .output}
 
 ## First practical: open a netCDF data file
 
