@@ -10,9 +10,9 @@ objectives:
 keypoints:
 - "CMIP6 models"
 - "CESM"
+- "NorESM"
 - "MPI-ESM"
 - "UKESM"
-- "NorESM"
 ---
 
 *  <img src="../fig/CMIP_logo_v4.png">
@@ -80,6 +80,19 @@ The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major updat
 *   [WACCM6 introduction paper: Gettelman et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD030943)
 
 
+# NorESM
+
+The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. The NorESM2 version is part of CMIP6 participating with two different resolutions called NorESM2 with medium (~1 deg) and low (~2 deg) resolution in the atmosphere respectively (called NorESM-MM/NorESM-LM in the ESGF data folder).  
+
+The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
+
+*   [NorESM Web page](https://www.noresm.org/)
+*   [NorESM code access](https://github.com/NorESMhub/NorESM)
+*   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
+*   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
+*   [NorESM2 introduction paper: Seland et al 2020](https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
+
+
 # MPI-ESM
 
 *  <img src="../fig/MPI-ESM1.2.jpg">
@@ -102,19 +115,6 @@ The UK Earth System Model (UKESM) is a new state-of-the-art ESM composed of comp
 *   [UK models for CMIP6](https://ukesm.ac.uk/cmip6/)
 *   [The UK Earth System Models for CMIP6 special collections](https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.UKESM1)
 *   [HadGEM3 GC3.1 introduction paper: Kuhlbrodt et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001370)
-
-
-# NorESM
-
-The [Norwegian Earth System Model](https://www.noresm.org/) (NorESM) has been developed since 2007 and has been an important tool for Norwegian climate researchers in the study of the past, present and future climate. The NorESM2 version is part of CMIP6 participating with two different resolutions called NorESM2 with medium (~1 deg) and low (~2 deg) resolution in the atmosphere respectively (called NorESM-MM/NorESM-LM in the ESGF data folder).  
-
-The further development of NorESM will be supported by the [Infrastructure for Norwegian Earth System Modeling](https://www.ines.noresm.org/)(INES)  project.  
-
-*   [NorESM Web page](https://www.noresm.org/)
-*   [NorESM code access](https://github.com/NorESMhub/NorESM)
-*   [NorESM-1 documentation](https://noresm-docs.readthedocs.io/en/noresm1/)
-*   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
-*   [NorESM2 introduction paper: Seland et al 2020](https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
 
 {% include links.md %}
 
