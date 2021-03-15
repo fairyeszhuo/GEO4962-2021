@@ -283,6 +283,7 @@ You can analyze many variables from the control run to check its validity but at
 these two variables are the one contained in the SPARC climatology. 
 
 <!--
+
 ### How to compute yearly means from the CMIP6 monthly data?
 
 In python, the [xarray](http://xarray.pydata.org/en/stable/) package is very handy as it can also open several
@@ -493,6 +494,7 @@ dy[['ua']].to_netcdf("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412
 
 
 You are now ready to visualize U and T from CMIP6 model data and start the exercise where you will compare this with the SPARC climatology.
+
 -->
 
 > ## Exercise
