@@ -10,13 +10,15 @@ The course gives a broad overview about the general circulation of the atmospher
 
 **Learning outcome**
 
-After finishing this course, students should understand:
+After finishing this course, students should understand and handle:
 
 - Tropospheric circulation,
 - Brewer Dobson Circulation,
 - Stratospheric ozone distribution,
 - Dynamics and chemistry of key trace gases,
-- Climate change and the Ozone Hole.
+- Climate change and the Ozone Hole,
+- CMIP6 model data, plotting and analysis,
+- Complete a CMIP6 model topic stuy.
 
 <!-- this is an html comment -->
 
