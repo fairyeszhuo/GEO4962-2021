@@ -13,12 +13,20 @@ keypoints:
 - "SOI"
 ---
 
-*  <img src="../fig/enso-example.png"> 
-Maps of sea surface temperature anomaly in the Pacific Ocean during a strong La Niña (top, December 1988) and El Niño (bottom, December 1997). Maps by NOAA Climate.gov
+*   [Introduction](#introduction)
+*   [Analysis indices](#analysis-indices)
+	* [Niño regions](#niño-regions)
+	* [ENSO indices](#enso-indices)
+*   [Research questions](#research-questions)
+*   [References](#references)
+
 
 # Introduction
 
-- As one of the pronounced internal variability in the tropics, the **[El Niño-Southern Oscillation (ENSO)] (https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation)** can bring large variation to the climate system. 
+*  <img src="../fig/enso-example.png"> 
+Maps of sea surface temperature anomaly in the Pacific Ocean during a strong La Niña (top, December 1988) and El Niño (bottom, December 1997). Maps by NOAA Climate.gov
+
+- As one of the pronounced internal variability in the tropics, the [**El Niño-Southern Oscillation (ENSO)**] (https://en.wikipedia.org/wiki/El_Ni%C3%B1o%E2%80%93Southern_Oscillation) can bring large variation to the climate system. 
 - El Niño–Southern Oscillation (ENSO) is an irregular periodic variation on a time scale of 2–7 years in winds and sea surface temperatures over the tropical eastern Pacific Ocean. 
 - ENSO is an atmosphere-ocean coupled system, maintained by Bjerknes feedback.
 - The warming phase of the sea temperature is known as **El Niño** and the cooling phase as **La Niña**. 
