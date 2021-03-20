@@ -14,12 +14,12 @@ keypoints:
 ---
 
 *   [Introduction](#introduction)
-*   [Analysis indices](#analysis-indices)
+*   [Questions](#questions)
+*   [Data](#data)
+*   [Analysis](#analysis-indices)
 	* [Niño regions](#niño-regions)
 	* [ENSO indices](#enso-indices)
-*   [Research questions](#research-questions)
 *   [References](#references)
-
 
 # Introduction
 
@@ -33,7 +33,16 @@ keypoints:
 *  <img src="../fig/enso-example.png"> 
 Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by NOAA Climate.gov
 
-# Analysis Indices
+# Questions
+
+- 1) Can CMIP6 models capture the characteristics of the historical ENSO events?
+- 2) How will ENSO change under global warming in CMIP6 simulations?
+
+# Data
+
+CMIP6 model data, observation-based ENSO indices
+
+# Analysis
 
 ## Niño regions
 
@@ -56,11 +65,6 @@ The **Southern Oscillation Index (SOI)** is a standardized index based on the ob
 *  <img src="../fig/SOI.png">
 
 * [SOI index](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/)
-
-# Research Questions
-
-  1) Can CMIP6 models capture the characteristics of the historical ENSO events? 
-  2) How will the ENSO change under global warming in CMIP6 simulations?
 
 # References
 
