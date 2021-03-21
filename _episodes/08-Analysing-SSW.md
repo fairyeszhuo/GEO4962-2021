@@ -24,8 +24,8 @@ SSWs are interesting examples of troposphere-stratosphere interaction. Not only 
 <img src="../fig/ssw_nh.png" width=600> 
 
 # Research question ideas
-1. Frequency and timing of NH SSWs -- modelled vs observed
-2. Major SSWs in the SH in present and future?
+1. Frequency and timing of NH SSWs: modelled versus observed
+2. Major SSWs in the SH in present and future
 3. Impact of SSWs on the surface climate
 
 # Data
