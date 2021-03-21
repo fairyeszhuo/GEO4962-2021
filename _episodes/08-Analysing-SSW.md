@@ -9,6 +9,12 @@ objectives:
 - "Learn to analyze CMIP6 data"
 keypoints:
 - "SSW"
+---
+
+*   [Introduction](#introduction)
+*   [Questions](#research-question-ideas)
+*   [Data](#data)
+*   [References](#references)
 
 
 # Introduction
