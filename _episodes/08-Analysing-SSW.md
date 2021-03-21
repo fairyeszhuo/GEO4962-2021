@@ -1,16 +1,15 @@
-<!--
 ---
-title: "Model topic: SSW"
+title: "Model topic: Sudden stratospheric warmings"
 teaching: 0
 exercises: 0
 questions:
-- "How to analyze SSW using CMIP6 data?"
+- "How to analyze SSWs in the CMIP6 data?"
 objectives:
-- "Learn about SSW"
+- "Learn about SSWs"
 - "Learn to analyze CMIP6 data"
 keypoints:
 - "SSW"
--->
+
 
 # Introduction
 Sudden stratospheric warmings (SSWs) are events in which the temperature of the polar stratosphere abruptly rises, accompanied by a disruption of the westerly winds in the polar vortex. SSWs are classified into four different types depending on the timing and severity of the event. The frequency of occurrence depends on the type of SSW and is dramatically different in the Northern and Southern hemispheres. 
