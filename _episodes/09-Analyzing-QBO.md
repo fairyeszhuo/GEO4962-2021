@@ -19,7 +19,13 @@ keypoints:
 
 
 # Introduction
-- QBO
+The quasi-biennial oscillation (QBO) (Baldwin et al 2001):
+
+- dominates the variability of  the  equatorial stratosphere (16-50 km).
+- is a downward propagating easterly and westerly wind regimes, with a variable period averaging approximately 28 months. 
+- is a coherent, oscillating mean flow that is driven by propagating waves with periods unrelated to that of the resulting oscillation.
+- affects the stratospheric flow from pole to pole by modulating the effects of extratropical waves (impact on the polar vortices). 
+- impacts atmospheric dynamics, and chemical constituents (e.g. ozone, water vapor, and methane). 
 
 <img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
