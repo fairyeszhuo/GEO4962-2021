@@ -18,10 +18,10 @@ keypoints:
 
 
 # Introduction
+## BDC and ozone
  
 ![image](https://user-images.githubusercontent.com/44640857/111971411-9cae6a80-8afc-11eb-8bac-ebf7059f2f79.png)
 
-<img src="../fig/ssw_nh.png" width=600>(Krüger, 2002: UiO lecture slides)
 
 # Research question ideas
 1. Frequency and timing of NH major SSWs: modelled versus observed
