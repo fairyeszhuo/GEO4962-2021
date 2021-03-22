@@ -32,5 +32,5 @@ keypoints:
 
 # References
 - Holton et al, STE review, Geophys Rev., 1995
-- Butchart et al BDC Review, Geophys Rev., 2012
+- Butchart, BDC Review, Geophys Rev., 2012
 - Mean age of air: Engel et al 2009; Waugh, 2009 (both at Nature Geoscience)
