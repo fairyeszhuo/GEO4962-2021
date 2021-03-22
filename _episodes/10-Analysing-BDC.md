@@ -22,8 +22,9 @@ keypoints:
 ![image](https://user-images.githubusercontent.com/44640857/111973529-df714200-8afe-11eb-8874-1e3cb88054e1.png)
 
 # Research question ideas
-- How are modelled ozone and BDC in CMIP6 models? 
-- Future BDC and ozone trends?
+- Do CMIP6 models capture the observed ozone and BDC characteristics?
+- How will the BDC and ozone change in a future climate ? 
+
 
 # Data
 - CMIP6 model data, historical period (1850-2014 CE) and future scenario(s)
