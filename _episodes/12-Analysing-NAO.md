@@ -20,7 +20,8 @@ keypoints:
 
 # Introduction
 - NAO
-![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) (Scaife et al 2003 GRL)
+- ![image](https://user-images.githubusercontent.com/44640857/111969251-50622b00-8afa-11eb-997b-c98e0730e64a.png)
+- ![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) (Scaife et al 2003 GRL)
 
 
 # Research Questions
