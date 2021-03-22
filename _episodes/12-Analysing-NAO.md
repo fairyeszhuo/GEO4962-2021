@@ -26,9 +26,7 @@ keypoints:
 
 
 # Research Questions
-- What is the NAO; how is defined?
-- How is the NAO resolved in CMIP6 models; compared with observations;  
-   any trends? 
+- How is the NAO resolved in CMIP6 models; compared with observations; any trends? 
 - NAO and stratospheric wind correlations?
 - Is the NAO changing in a future climate? 
 - Any impacts of ENSO and volcanic eruptions on the NAO? 
