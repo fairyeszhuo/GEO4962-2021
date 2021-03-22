@@ -14,7 +14,7 @@ keypoints:
 ---
 
 *   [Introduction](#introduction)
-*   [Questions](#questions)
+*   [Questions](#research-question-ideas)
 *   [Data](#data)
 *   [Analysis](#analysis-indices)
 	* [El Niño regions](#niño-regions)
@@ -33,10 +33,10 @@ keypoints:
 *  <img src="../fig/enso-example.png"> 
 Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by [NOAA Climate.gov](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-ni%C3%B1o-index)
 
-# Questions
+# Research question ideas
 
-- 1) Do CMIP6 models capture the observed ENSO characteristics?
-- 2) How will ENSO change under global warming in CMIP6 simulations?
+- Do CMIP6 models capture the observed ENSO characteristics?
+- How will ENSO change under global warming in CMIP6 simulations?
 
 # Data
 
