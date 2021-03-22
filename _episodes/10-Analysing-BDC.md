@@ -20,7 +20,7 @@ keypoints:
 # Introduction
 ## BDC and ozone
  
-![image width=200](https://user-images.githubusercontent.com/44640857/111971411-9cae6a80-8afc-11eb-8bac-ebf7059f2f79.png) 
+![image](https://user-images.githubusercontent.com/44640857/111971411-9cae6a80-8afc-11eb-8bac-ebf7059f2f79.png) 
 
 
 # Research question ideas
@@ -29,9 +29,11 @@ keypoints:
 3. Impact of major SSWs on the surface climate?
 
 # Data
-Daily [ta, ua, zg] (at least available for NorESM2), [FUB dataset](https://www.geo.fu-berlin.de/en/met/ag/strat/produkte/northpole/index.html)
+- CMIP6 model data, historical period (1850-2014 CE) and future scenario(s)
+- Observations: reanalyses, Engel et al 2009
+
 
 # References
-- WMO criteria (see lecture slides)
-- [Charlton, Andrew J., and Lorenzo Polvani "A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks." Journal of climate 20.3 (2007): 449–469.](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3996.1.xml?tab_body=fulltext-display)
-- [Charlton, Andrew J., et al. "A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations." Journal of climate 20.3 (2007): 470-488.](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3994.1.xml)
+- Hoton et al, STE review, Geophys Rev., 1995
+- Butchart et al BDC Review, Geophys Rev., 2012
+- Mean age of air: Engel et al 2009; Waugh, 2009 (both at Nature Geoscience)
