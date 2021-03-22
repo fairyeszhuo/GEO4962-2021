@@ -23,7 +23,7 @@ keypoints:
 
 <img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
-# Research questions
+# Research Questions
 - Do CMIP6 models resolve the QBO; what is the QBO period; QBO impacts? 
 - Are there any hickups in the modelled QBO?
 - How is the QBO generated?
