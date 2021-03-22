@@ -35,5 +35,5 @@ Daily [ta, ua, zg] (at least available for NorESM2), [FUB dataset](https://www.g
 - WMO criteria (see lecture slides)
 - [A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks: Charlton and Polvani, 2007](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3996.1.xml?tab_body=fulltext-display)
 - [A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations: Charlton et al., 2007](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3994.1.xml)
-- CMIP5 models: Charlton-Perez et al 2013 JGR 
+- CMIP5 models: [Charlton-Perez et al 2013 JGR](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/jgrd.50125)
 
