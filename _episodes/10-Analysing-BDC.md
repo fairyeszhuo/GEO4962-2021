@@ -19,8 +19,7 @@ keypoints:
 
 # Introduction
 ## BDC and ozone
-![image](https://user-images.githubusercontent.com/44640857/111973469-cd8f9f00-8afe-11eb-877c-b8a6f90d0d5f.png)
-
+![image](https://user-images.githubusercontent.com/44640857/111973529-df714200-8afe-11eb-8874-1e3cb88054e1.png)
 
 # Research question ideas
 1. Frequency and timing of NH major SSWs: modelled versus observed
