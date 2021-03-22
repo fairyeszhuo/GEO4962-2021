@@ -24,9 +24,12 @@ keypoints:
 <img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
 # Research question ideas
-1. Frequency and timing of NH major SSWs: modelled versus observed
-2. Major SSWs in the SH in present and future?
-3. Impact of major SSWs on the surface climate?
+- Do CMIP6 models resolve the QBO, what is the QBO period, QBO impacts? 
+- Are there any hickups in the modelled QBO?
+- How is the QBO generated?
+- Do increasing GHGs impact the QBO? 
+![image](https://user-images.githubusercontent.com/44640857/111967395-49d2b400-8af8-11eb-8162-8740604f1aa5.png)
+
 
 # Data
 NorESM2 daily [ta, ua, zg], FUB dataset 
