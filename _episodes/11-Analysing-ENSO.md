@@ -31,7 +31,7 @@ keypoints:
 - Understanding how well state-of-the-art climate models capture the observed characteristics of ENSO and how it will change in the future are important for model evaluation and climate prediction.
 
 *  <img src="../fig/enso-example.png"> 
-Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by NOAA Climate.gov
+Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by [NOAA Climate.gov](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-ni%C3%B1o-index)
 
 # Questions
 
@@ -40,13 +40,13 @@ Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **L
 
 # Data
 
-CMIP6 model data, observation-based ENSO indices (NCEP CPC)
+CMIP6 model data, observation-based ENSO indices (NOAA NCEP CPC)
 
 # Analysis
 
 ## El Niño regions
 
-*  <img src="../fig/nino-regions.png"> (@NCEP CPC)
+*  <img src="../fig/nino-regions.png"> (@ [NOAA](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/sst/#:~:text=El%20Ni%C3%B1o%20(La%20Ni%C3%B1a)%20is,C%20(%2D0.5%C2%B0C)))
 
 There are several indices used to monitor the tropical Pacific, all of which are based on SST anomalies averaged across a given region as shown in the above figure. Usually the anomalies are computed relative to a base climatological period of 30 years. 
 
@@ -62,13 +62,15 @@ The ONI tracks the running 3-month average sea surface temperature (SST) in the 
 * [ONI values](https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php)
 
 The **Southern Oscillation Index (SOI)** is a standardized index based on the observed sea level pressure differences between Tahiti and Darwin, Australia.
-*  <img src="../fig/SOI.png"> (@NCEP CPC)
+*  <img src="../fig/SOI.png"> (@ [NOAA climate.gov](https://www.climate.gov/news-features/blogs/enso/why-are-there-so-many-enso-indexes-instead-just-one))
 
 * [SOI index](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/)
+* [Climate Variability: SOI](https://www.climate.gov/news-features/understanding-climate/climate-variability-southern-oscillation-index#:~:text=The%20Southern%20Oscillation%20Index%20or,level%20pressure%20at%20each%20station)
 
 # References
 
-* Basic ENSO paper
+* [Meteorological Aspects of the ENSO: Rasmusson and Wallace, 1983](https://science.sciencemag.org/content/sci/222/4629/1195.full.pdf?casa_token=T0DAzCum0FAAAAAA:QNR4LBUu2wAbL5Ow1cKgJB8LDkhS2L0rau90TwSbI-7jUZ3Q6rhGYd5fh8w8BR9fLOd-m29dCu9rcA)
+* [WMO document on ENSO](https://library.wmo.int/doc_num.php?explnum_id=7888)
 * [Comparison of past and future ENSO simulations: Brown et al., 2020](https://cp.copernicus.org/articles/16/1777/2020/cp-16-1777-2020.pdf)
 * [ENSO change under global warming: Fredriksen et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL090640)
 
