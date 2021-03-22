@@ -22,8 +22,8 @@ keypoints:
 ![image](https://user-images.githubusercontent.com/44640857/111973529-df714200-8afe-11eb-8874-1e3cb88054e1.png)
 
 # Research question ideas
-1. How are modelled ozone and BDC in CMIP6 models? 
-2. Future BDC and ozone trends?
+- How are modelled ozone and BDC in CMIP6 models? 
+- Future BDC and ozone trends?
 
 # Data
 - CMIP6 model data, historical period (1850-2014 CE) and future scenario(s)
@@ -31,6 +31,7 @@ keypoints:
 
 
 # References
-- Holton et al, STE review, Geophys Rev., 1995
+- [Stratosphere‐troposphere exchange: Holton et al., 1995](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/95RG02097)
 - Butchart, BDC Review, Geophys Rev., 2012
-- Mean age of air: Engel et al 2009; Waugh, 2009 (both at Nature Geoscience)
+- [Age of stratospheric air unchanged within uncertainties over the past 30 years: Engel et al., 2009](https://www.nature.com/articles/ngeo388)
+- [The age of stratospheric air: Waugh, 2009](https://www.nature.com/articles/ngeo397)
