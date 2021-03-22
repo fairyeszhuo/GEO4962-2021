@@ -24,9 +24,9 @@ keypoints:
 <img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
 # Research questions (I-III topics)
- I. Do CMIP6 models resolve the QBO; what is the QBO period; QBO impacts; are there any hickups in the modelled QBO?
- II. How is the QBO generated?
- III. Do increasing GHGs impact the QBO? 
+- I. Do CMIP6 models resolve the QBO; what is the QBO period; QBO impacts; are there any hickups in the modelled QBO?
+- II. How is the QBO generated?
+- III. Do increasing GHGs impact the QBO? 
 
 # Data
 - CMIP6 model data, historical period (1850-2014 CE) and future scenarios
