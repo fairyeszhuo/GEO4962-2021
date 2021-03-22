@@ -33,5 +33,5 @@ NorESM2 daily [ta, ua, zg], FUB dataset
 
 # References
 - WMO criteria (see lecture slides)
-- Charlton, Andrew J., and Lorenzo Polvani "A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks." Journal of climate 20.3 (2007): 449–469.
-- Charlton, Andrew J., et al. "A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations." Journal of climate 20.3 (2007): 470-488.
+- [Charlton, Andrew J., and Lorenzo Polvani "A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks." Journal of climate 20.3 (2007): 449–469.](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3996.1.xml?tab_body=fulltext-display)
+- [Charlton, Andrew J., et al. "A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations." Journal of climate 20.3 (2007): 470-488.](https://journals.ametsoc.org/view/journals/clim/20/3/jcli3994.1.xml)
