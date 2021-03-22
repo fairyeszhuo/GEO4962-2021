@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Model topic: QBO"
 teaching: 0
@@ -13,43 +12,29 @@ keypoints:
 ---
 
 
-## **Archive** experiment on the [NIRD archive](https://archive.sigma2.no/)
-
-For more information, read the [NIRD Archive User guide](https://www.sigma2.no/research-data-archive-user-guide).  
-
-### Log onto the Web Interface
-
-To access the Archive web interface, direct your browser to: https://archive.sigma2.no and click on "[Deposit](https://archive.sigma2.no/pages/user/deposit.jsf)".  
-![](../fig/deposit.png)  
-
-**You can submit a request for access from this page. Only approved users are allowed to deposit datasets in the Archive**.   
-
-### Upload dataset from the NIRD project area
+*   [Introduction](#introduction)
+*   [Questions](#research-question-ideas)
+*   [Data](#data)
+*   [References](#references)
 
 
-Adjust the title according to your experiment (here I gave the CO2 experiment as an example), and set the Data Manager and Rights Holder (you) for your dataset.  
+# Introduction
+QBO
 
-- The currently
+<img src="../fig/ssw_nh.png" width=600>(Krüger, 2002: UiO lecture slides)
 
-- The Data Manager 
+# Research question ideas
+1. Frequency and timing of NH major SSWs: modelled versus observed
+2. Major SSWs in the SH in present and future?
+3. Impact of major SSWs on the surface climate?
 
-**Once completed, click on "save dataset information"**.  
+# Data
+NorESM2 daily [ta, ua, zg], FUB dataset 
 
-- You can .  
-- **You can cancel a pending upload or an upload in progress using the `CancelArchiveDataset <uuid>` command where `<uuid>` is the identifier for your dataset.**  
-- You will receive a
-
-**NOTE** that once a dataset has been 
-
-# Visualize
-
-~~~
-rm -rf /projects/NS1000K/climate/GEO4962/outputs/$USER/runs
-~~~
-{: .language-bash}
-
+# References
+- Charlton, Andrew J., and Lorenzo Polvani "A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks." Journal of climate 20.3 (2007): 449–469.
+- Charlton, Andrew J., et al. "A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations." Journal of climate 20.3 (2007): 470-488.
+- WMO criteria (see lecture slides)
 
 
 {% include links.md %}
-
--->
