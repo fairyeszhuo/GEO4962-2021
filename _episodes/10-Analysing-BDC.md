@@ -33,6 +33,6 @@ keypoints:
 
 # References
 - [Stratosphere‐troposphere exchange: Holton et al., 1995](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/95RG02097)
-- Butchart, BDC Review, Geophys Rev., 2014
+- [Butchart, BDC Review, Geophys Rev., 2014] (https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013RG000448)
 - [Age of stratospheric air unchanged within uncertainties over the past 30 years: Engel et al., 2009](https://www.nature.com/articles/ngeo388)
 - [The age of stratospheric air: Waugh, 2009](https://www.nature.com/articles/ngeo397)
