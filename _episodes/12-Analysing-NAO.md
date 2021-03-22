@@ -40,6 +40,8 @@ keypoints:
 
 
 # References
+- Lecture slides
+- [NCEP CPC NAO](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml)
 - Scaife et al 2003 ff
 
 
