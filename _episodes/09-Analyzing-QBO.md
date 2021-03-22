@@ -28,7 +28,6 @@ keypoints:
 - Are there any hickups in the modelled QBO?
 - How is the QBO generated?
 - Do increasing GHGs impact the QBO? 
-![image](https://user-images.githubusercontent.com/44640857/111967395-49d2b400-8af8-11eb-8162-8740604f1aa5.png)
 
 
 # Data
