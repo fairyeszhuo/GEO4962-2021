@@ -24,10 +24,10 @@ keypoints:
 - ![image](https://user-images.githubusercontent.com/44640857/111969377-74be0780-8afa-11eb-8ce8-4e0a45d9147f.png) [(NCEP CPC)](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/JFM_season_nao_index.shtml)
 - How to calculate the NAO index: [NAO indices](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/history/method.shtml)
 - Stratospheric impact on the NAO: 
-- ![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) (Scaife et al 2003 GRL)
+- ![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) ([Scaife et al., 2005](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2005GL023226))
 
 
-# Research Questions
+# Research question ideas
 - How is the NAO resolved in CMIP6 models; compared with observations; any trends? 
 - NAO and stratospheric wind correlations?
 - Is the NAO changing in a future climate? 
@@ -42,7 +42,7 @@ keypoints:
 # References
 - Lecture slides
 - [NCEP CPC NAO](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml)
-- Scaife et al 2003 ff
+- [A stratospheric influence on the winter NAO and North Atlantic surface climate: Scaife et al., 2005](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2005GL023226)
 
 
 {% include links.md %}
