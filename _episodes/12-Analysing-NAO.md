@@ -20,9 +20,8 @@ keypoints:
 
 # Introduction
 - NAO
-![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png)
+![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) (Scaife et al 2003 GRL)
 
-<img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
 # Research Questions
 - What is the NAO; how is defined?
