@@ -23,20 +23,21 @@ keypoints:
 
 <img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
 
-# Research question ideas
+# Research questions
 - Do CMIP6 models resolve the QBO; what is the QBO period; QBO impacts? 
 - Are there any hickups in the modelled QBO?
 - How is the QBO generated?
 - Do increasing GHGs impact the QBO? 
 
-
 # Data
-NorESM2 daily [ta, ua, zg], FUB dataset 
+- CMIP6 model data, historical period (1850-2014 CE)
+- Observations: FUB QBO record (Naujokat et al 1986 and updates; FUB QBO webside) 
+
 
 # References
-- Charlton, Andrew J., and Lorenzo Polvani "A new look at stratospheric sudden warmings. Part I: Climatology and Modeling Benchmarks." Journal of climate 20.3 (2007): 449–469.
-- Charlton, Andrew J., et al. "A new look at stratospheric sudden warmings. Part II: Evaluation of numerical model simulations." Journal of climate 20.3 (2007): 470-488.
-- WMO criteria (see lecture slides)
+- Naujokat et al 1986
+- Baldwin et al 2001 QBO Geophys Review Paper
+- hick-ups: Newman et al., 2016; Osprey et al., 2016; Anstey et al, 2020.
 
 
 {% include links.md %}
