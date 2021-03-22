@@ -3,7 +3,7 @@ title: "Model topic: BDC and ozone"
 teaching: 0
 exercises: 0
 questions:
-- "How to analyze the BDC using CMIP6 data?"
+- "How to analyze the BDC and ozone using CMIP6 data?"
 objectives:
 - "Learn about BDC and ozone"
 - "Learn to analyze CMIP6 data"
