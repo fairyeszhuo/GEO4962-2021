@@ -19,7 +19,7 @@ keypoints:
 
 
 # Introduction
-- NAO
+  ## NAO
 - What is the NAO?
 - ![image](https://user-images.githubusercontent.com/44640857/111969377-74be0780-8afa-11eb-8ce8-4e0a45d9147f.png) [(NCEP CPC)](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/JFM_season_nao_index.shtml)
 - How to calculate the NAO index: [NAO indices](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/history/method.shtml)
