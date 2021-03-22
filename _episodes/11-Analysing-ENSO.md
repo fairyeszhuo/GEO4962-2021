@@ -46,7 +46,7 @@ CMIP6 model data, observation-based ENSO indices (NOAA NCEP CPC)
 
 ## El Niño regions
 
-*  <img src="../fig/nino-regions.png"> (@ [NOAA](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/sst/#:~:text=El%20Ni%C3%B1o%20(La%20Ni%C3%B1a)%20is,C%20(%2D0.5%C2%B0C)))
+*  <img src="../fig/nino-regions.png" width=500> (@ [NOAA](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/sst/#:~:text=El%20Ni%C3%B1o%20(La%20Ni%C3%B1a)%20is,C%20(%2D0.5%C2%B0C)))
 
 There are several indices used to monitor the tropical Pacific, all of which are based on SST anomalies averaged across a given region as shown in the above figure. Usually the anomalies are computed relative to a base climatological period of 30 years. 
 
@@ -62,7 +62,7 @@ The ONI tracks the running 3-month average sea surface temperature (SST) in the 
 * [ONI values](https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php)
 
 The **Southern Oscillation Index (SOI)** is a standardized index based on the observed sea level pressure differences between Tahiti and Darwin, Australia.
-*  <img src="../fig/SOI.png"> (@ [NOAA climate.gov](https://www.climate.gov/news-features/blogs/enso/why-are-there-so-many-enso-indexes-instead-just-one))
+*  <img src="../fig/SOI.png" width=500> (@ [NOAA climate.gov](https://www.climate.gov/news-features/blogs/enso/why-are-there-so-many-enso-indexes-instead-just-one))
 
 * [SOI index](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/)
 * [Climate Variability: SOI](https://www.climate.gov/news-features/understanding-climate/climate-variability-southern-oscillation-index#:~:text=The%20Southern%20Oscillation%20Index%20or,level%20pressure%20at%20each%20station)
