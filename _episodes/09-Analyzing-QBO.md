@@ -31,7 +31,7 @@ keypoints:
 
 # Data
 - CMIP6 model data, historical period (1850-2014 CE)
-- Observations: FUB QBO record (Naujokat et al 1986 and updates; FUB QBO webside) 
+- Observations: FUB QBO record (Naujokat et al 1986 and updates; [FUB data](https://www.geo.fu-berlin.de/en/met/ag/strat/produkte/qbo/index.html)) 
 
 
 # References
