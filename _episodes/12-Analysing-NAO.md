@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Model topic: NAO"
 teaching: 0
@@ -11,3 +10,36 @@ objectives:
 keypoints:
 - "NAO"
 ---
+
+
+*   [Introduction](#introduction)
+*   [Questions](#research-question-ideas)
+*   [Data](#data)
+*   [References](#references)
+
+
+# Introduction
+- NAO
+![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png)
+
+<img src="../fig/qbo_wind_pdf.jpg" width=600>[(@FUB)](https://www.geo.fu-berlin.de/met/ag/strat/produkte/qbo/qbo_wind_pdf.pdf)
+
+# Research Questions
+- What is the NAO; how is defined?
+- How is the NAO resolved in CMIP6 models; compared with observations;  
+   any trends? 
+- NAO and stratospheric wind correlations?
+- Is the NAO changing in a future climate? 
+- Any impacts of ENSO and volcanic eruptions on the NAO? 
+
+
+# Data
+- CMIP6 model data, historical period (1850-2014 CE)
+- Observations: NCEP CPC data 
+
+
+# References
+- Scaife et al 2003 ff
+
+
+{% include links.md %}
