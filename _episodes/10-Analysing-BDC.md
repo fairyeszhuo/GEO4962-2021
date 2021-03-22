@@ -22,16 +22,15 @@ keypoints:
 ![image](https://user-images.githubusercontent.com/44640857/111973529-df714200-8afe-11eb-8874-1e3cb88054e1.png)
 
 # Research question ideas
-1. Frequency and timing of NH major SSWs: modelled versus observed
-2. Major SSWs in the SH in present and future?
-3. Impact of major SSWs on the surface climate?
+1. How are modelled ozone and BDC in CMIP6 models? 
+2. Future BDC and ozone trends?
 
 # Data
 - CMIP6 model data, historical period (1850-2014 CE) and future scenario(s)
-- Observations: reanalyses, Engel et al 2009
+- Observations: reanalyses
 
 
 # References
-- Hoton et al, STE review, Geophys Rev., 1995
+- Holton et al, STE review, Geophys Rev., 1995
 - Butchart et al BDC Review, Geophys Rev., 2012
 - Mean age of air: Engel et al 2009; Waugh, 2009 (both at Nature Geoscience)
