@@ -21,7 +21,7 @@ keypoints:
 # Introduction
 QBO
 
-<img src="../fig/qbo_wind_pdf.jpg",width=600>(@FUB)
+<img src="../fig/qbo_wind_pdf.jpg" width=600>(@FUB)
 
 # Research question ideas
 1. Frequency and timing of NH major SSWs: modelled versus observed
