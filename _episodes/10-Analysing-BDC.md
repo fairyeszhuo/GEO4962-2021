@@ -19,8 +19,7 @@ keypoints:
 
 # Introduction
 ## BDC and ozone
- 
-![image](https://user-images.githubusercontent.com/44640857/111971411-9cae6a80-8afc-11eb-8bac-ebf7059f2f79.png) 
+![image](https://user-images.githubusercontent.com/44640857/111973469-cd8f9f00-8afe-11eb-877c-b8a6f90d0d5f.png)
 
 
 # Research question ideas
