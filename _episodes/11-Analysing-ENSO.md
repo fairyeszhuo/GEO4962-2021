@@ -17,7 +17,7 @@ keypoints:
 *   [Questions](#questions)
 *   [Data](#data)
 *   [Analysis](#analysis-indices)
-	* [Niño regions](#niño-regions)
+	* [El Niño regions](#niño-regions)
 	* [ENSO indices](#enso-indices)
 *   [References](#references)
 
@@ -44,9 +44,9 @@ CMIP6 model data, observation-based ENSO indices (NCEP CPC)
 
 # Analysis
 
-## Niño regions
+## El Niño regions
 
-*  <img src="../fig/nino-regions.png">
+*  <img src="../fig/nino-regions.png"> (@NCEP CPC)
 
 There are several indices used to monitor the tropical Pacific, all of which are based on SST anomalies averaged across a given region as shown in the above figure. Usually the anomalies are computed relative to a base climatological period of 30 years. 
 
@@ -57,12 +57,12 @@ There are several indices used to monitor the tropical Pacific, all of which are
 The **Oceanic Niño Index (ONI)** is NOAA's primary indicator for monitoring El Niño and La Niña.
 The ONI tracks the running 3-month average sea surface temperature (SST) in the east-central tropical Pacific between 120°-170°W. Scientists call the area the Niño 3.4 region. A full-fledged El Niño or La Niña is indicated when the ONI exceed +0.5C or -0.5C for at least five consecutive months.  
 
-* [Nino SST indices](https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni)
+* [El Niño SST indices](https://climatedataguide.ucar.edu/climate-data/nino-sst-indices-nino-12-3-34-4-oni-and-tni)
 * [ONI figure](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-nino-index)
 * [ONI values](https://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php)
 
 The **Southern Oscillation Index (SOI)** is a standardized index based on the observed sea level pressure differences between Tahiti and Darwin, Australia.
-*  <img src="../fig/SOI.png">
+*  <img src="../fig/SOI.png"> (@NCEP CPC)
 
 * [SOI index](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/)
 
