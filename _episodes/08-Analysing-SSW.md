@@ -29,7 +29,7 @@ Major SSWs are interesting examples of troposphere-stratosphere interaction. Not
 3. Impact of major SSWs on the surface climate?
 
 # Data
-NorESM2 daily [ta, ua, zg], FUB dataset 
+Daily [ta, ua, zg] (at least available for NorESM2), [FUB dataset](https://www.geo.fu-berlin.de/en/met/ag/strat/produkte/northpole/index.html)
 
 # References
 - WMO criteria (see lecture slides)
