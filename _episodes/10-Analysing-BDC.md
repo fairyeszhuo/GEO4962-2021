@@ -38,5 +38,4 @@ keypoints:
 - [BDC Review paper: Butchart, 2014](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013RG000448)
 - [The SPARC Reanalysis Intercomparison Project (S-RIP)](https://acp.copernicus.org/articles/special_issue829.html)
 - S-RIP ozone and water vapour paper: [Davis et al 2017 ACP](https://acp.copernicus.org/articles/17/12743/2017/) 
-- S-RIP BDC
 - Age of stratospheric air: [Engel et al., 2009](https://www.nature.com/articles/ngeo388); [Waugh, 2009](https://www.nature.com/articles/ngeo397)
