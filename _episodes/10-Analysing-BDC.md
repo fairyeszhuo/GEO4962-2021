@@ -35,6 +35,8 @@ keypoints:
 - [Stratosphere‐troposphere exchange: Holton et al., 1995](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/95RG02097)
 - [SPARC CCMVal report 2010 Chapter 4](https://www.sparc-climate.org/wp-content/uploads/sites/5/2017/12/SPARC_Report_No5_Jun2010_Part1_redFile.pdf)
 - [BDC Review paper: Butchart, 2014](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013RG000448)
+- [The SPARC Reanalysis Intercomparison Project (S-RIP)](https://acp.copernicus.org/articles/special_issue829.html)
 - S-RIP ozone and water vapour paper: [Davis et al 2017 ACP](https://acp.copernicus.org/articles/17/12743/2017/)
+- Lecture slides and material
+- 
 - Age of stratospheric air: [Engel et al., 2009](https://www.nature.com/articles/ngeo388); [Waugh, 2009](https://www.nature.com/articles/ngeo397)
-- [The SPARC Reanalysis Intercomparison Project](https://acp.copernicus.org/articles/special_issue829.html)
