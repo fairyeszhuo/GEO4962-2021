@@ -41,6 +41,7 @@ The quasi-biennial oscillation (QBO) (Baldwin et al 2001):
 
 
 # References
+- Lecture slides and material
 - [Naujokat et al., 1986](https://journals.ametsoc.org/view/journals/atsc/43/17/1520-0469_1986_043_1873_auotoq_2_0_co_2.xml)
 - [QBO review paper: Baldwin et al., 2001](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/1999RG000073)
 - QBO hick-up: [Newman et al., 2016](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1002/2016GL070373); [Osprey et al., 2016](https://science.sciencemag.org/content/353/6306/1424); [Anstey et al, 2020](https://rmets.onlinelibrary.wiley.com/doi/epdf/10.1002/qj.3820)
