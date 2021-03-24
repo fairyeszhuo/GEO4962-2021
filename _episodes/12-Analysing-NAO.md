@@ -40,7 +40,7 @@ keypoints:
 
 
 # References
-- Lecture slides
+- Lecture slides and material
 - [NCEP CPC NAO](https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/nao.shtml)
 - [A stratospheric influence on the winter NAO and North Atlantic surface climate: Scaife et al., 2005](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2005GL023226)
 
