@@ -72,7 +72,7 @@ The **Southern Oscillation Index (SOI)** is a standardized index based on the ob
 * See lecture slides and matrial
 * [Meteorological Aspects of the ENSO: Rasmusson and Wallace, 1983](https://science.sciencemag.org/content/sci/222/4629/1195.full.pdf?casa_token=T0DAzCum0FAAAAAA:QNR4LBUu2wAbL5Ow1cKgJB8LDkhS2L0rau90TwSbI-7jUZ3Q6rhGYd5fh8w8BR9fLOd-m29dCu9rcA)
 * [WMO document on ENSO](https://library.wmo.int/doc_num.php?explnum_id=7888)
-* [Cai et al 2014]{https://www.nature.com/articles/nclimate2100}
+* [Cai et al 2014](https://www.nature.com/articles/nclimate2100)
 * [Comparison of past and future ENSO simulations: Brown et al., 2020](https://cp.copernicus.org/articles/16/1777/2020/cp-16-1777-2020.pdf)
 * [ENSO change under global warming: Fredriksen et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL090640)
 
