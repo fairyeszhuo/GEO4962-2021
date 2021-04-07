@@ -31,7 +31,7 @@ keypoints:
 - Understanding how well state-of-the-art climate models capture the observed characteristics of ENSO and how it will change in the future are important for model evaluation and climate prediction.
 
 *  <img src="../fig/enso-example.png"> 
-Maps of sea surface temperature anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by [NOAA Climate.gov](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-ni%C3%B1o-index)
+Maps of sea surface temperature (SST) anomaly in the Pacific Ocean during a strong **La Niña** (top, December 1988) and **El Niño** (bottom, December 1997). Maps by [NOAA Climate.gov](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-ni%C3%B1o-index)
 
 # Research question ideas
 
@@ -51,6 +51,7 @@ CMIP6 model data, observation-based ENSO indices (NOAA NCEP CPC)
 There are several indices used to monitor the tropical Pacific, all of which are based on SST anomalies averaged across a given region as shown in the above figure. Usually the anomalies are computed relative to a base climatological period of 30 years. 
 
 * [Nino regions and observed sea surface temperatures](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/sst/#:~:text=El%20Ni%C3%B1o%20(La%20Ni%C3%B1a)%20is,C%20(%2D0.5%C2%B0C))
+* [Sea surface temperature and sea level pressure spatial figures in Climate Diagnostics Bulletin](https://www.cpc.ncep.noaa.gov/products/CDB/CDB_Archive_html/CDB_archive.shtml)
 
 ## ENSO indices
 
