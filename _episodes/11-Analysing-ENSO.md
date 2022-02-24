@@ -1,14 +1,15 @@
 ---
-title: "Model topic: ENSO"
+title: "Model topic: ENSO teleconnections"
 teaching: 0
 exercises: 0
 questions:
-- "How to analyze ENSO using CMIP6 data?"
+- "How to analyze ENSO and its teleconnections using CMIP6 data?"
 objectives:
-- "Learn about ENSO"
+- "Learn about ENSO and its teleconnections"
 - "Learn to analyze CMIP6 data"
 keypoints:
 - "ENSO"
+- "ENSO teleconnections"
 - "ONI"
 - "SOI"
 ---
@@ -16,8 +17,8 @@ keypoints:
 *   [Introduction](#introduction)
 *   [Questions](#research-question-ideas)
 *   [Data](#data)
-*   [Analysis](#analysis-indices)
-	* [El Niño regions](#niño-regions)
+*   [Analysis](#analysis)
+	* [El Niño regions](#el-Niño-regions)
 	* [ENSO indices](#enso-indices)
 *   [References](#references)
 
@@ -35,12 +36,21 @@ Maps of sea surface temperature (SST) anomaly in the Pacific Ocean during a stro
 
 # Research question ideas
 
+- What teleconnections do ENSO have on tropophere and stratosphere?
+- Can CMIP6 model simulations capture ENSO atmospheric teleconnection?
+- How will the teleconnections change in the future under different scenarios? 
+
+<!--  
 - Do CMIP6 models capture the observed ENSO characteristics?
 - How will ENSO change under global warming in CMIP6 simulations?
+-->
 
 # Data
 
-CMIP6 model data, observation-based ENSO indices (NOAA NCEP CPC)
+- CMIP6 model data: CESM2, CESM2-WACCM, MPI-ESM, NorESM, UKESM etc.
+- CMIP6 experiments: historical, SSP585, piControl, abrupt-4xCO2
+- Observations-based ENSO indices (NOAA NCEP CPC)
+
 
 # Analysis
 
@@ -68,16 +78,23 @@ The **Southern Oscillation Index (SOI)** is a standardized index based on the ob
 * [SOI index](https://www.ncdc.noaa.gov/teleconnections/enso/indicators/soi/)
 * [Climate Variability: SOI](https://www.climate.gov/news-features/understanding-climate/climate-variability-southern-oscillation-index#:~:text=The%20Southern%20Oscillation%20Index%20or,level%20pressure%20at%20each%20station)
 
+## ENSO teleconnections
+
+- El Niño and La Niña events have significant and disrupting impacts on the global atmospheric and oceanic circulation through atmospheric teleconnections, changing precipitation and temperature in various parts of the globe, and affecting extreme weather events worldwide. 
+- El Niño Southern Oscillation (ENSO) impacts also extend abovethe troposphere, affecting the strength and variability of the stratospheric polar vortex in the high latitudesof both hemispheres, as well as the composition and circulation of the tropical stratosphere. 
+
 # References
 
+* [Domeisen et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018RG000596)
+* [Yeh et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017RG000568)
+
+<!--  
 * See lecture slides and matrial
 * [Meteorological Aspects of the ENSO: Rasmusson and Wallace, 1983](https://science.sciencemag.org/content/sci/222/4629/1195.full.pdf?casa_token=T0DAzCum0FAAAAAA:QNR4LBUu2wAbL5Ow1cKgJB8LDkhS2L0rau90TwSbI-7jUZ3Q6rhGYd5fh8w8BR9fLOd-m29dCu9rcA)
 * [WMO document on ENSO](https://library.wmo.int/doc_num.php?explnum_id=7888)
 * [Increase in extreme ENSOs: Cai et al 2014](https://www.nature.com/articles/nclimate2100)
 * [Comparison of past and future ENSO simulations: Brown et al., 2020](https://cp.copernicus.org/articles/16/1777/2020/cp-16-1777-2020.pdf)
 * [ENSO change under global warming: Fredriksen et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL090640)
-
-<!--  
 (El Niño and La Niña events, ENSO SST and SLV patterns)
 -->
  
