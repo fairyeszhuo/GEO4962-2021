@@ -27,7 +27,7 @@ CMIP6 in its undergoing phase started in 2015.
 Website links
 *   [WCRP-WGCM: A Short Introduction to Climate Models - CMIP & CMIP6](https://www.wcrp-climate.org/wgcm-cmip)
 *   [CMIP6-Endorsed MIPs overview](https://www.wcrp-climate.org/modelling-wgcm-mip-catalogue/modelling-wgcm-cmip6-endorsed-mips)
-*   [ESGF CMPI6 data search and download portal](https://esgf-node.llnl.gov/search/cmip6/)
+*   [ESGF CMIP6 data search and download portal](https://esgf-node.llnl.gov/search/cmip6/)
 *   [CMIP6 data request home page](http://clipc-services.ceda.ac.uk/dreq/index.html)
 *   [CMIP6 data frenquency list](http://clipc-services.ceda.ac.uk/dreq/index/miptable.html)
 *   [CMIP6 variables list](http://clipc-services.ceda.ac.uk/dreq/index/var.html)
