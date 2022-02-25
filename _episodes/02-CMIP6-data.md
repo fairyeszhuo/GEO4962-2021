@@ -41,7 +41,7 @@ Data filename format: variable_data-frequency_model-name_experiment_ensemble-mem
 
 ## Find CMIP6 model data
 
-- To find historical monthly zonal wind data of **CESM2/WACCM** model
+- To find historical monthly zonal wind data of **CESM2-WACCM** model
 ~~~
 cd ~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/
 ls
