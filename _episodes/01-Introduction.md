@@ -37,6 +37,8 @@ Paper links
 *   [CMIP6 scenario overview paper: O'Neill et al., 2016](https://gmd.copernicus.org/articles/9/3461/2016/gmd-9-3461-2016.pdf)
 *   [CMIP6 data request overview paper: Juckes et al., 2020](https://gmd.copernicus.org/articles/13/201/2020/)
 
+* * *
+
 # CMIP6 models:
 
 # CESM
@@ -71,9 +73,6 @@ The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major updat
 
 *   [WACCM6 introduction paper: Gettelman et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD030943)
 
-
-* * *
-
 ## CESM2/CAM6
 
 The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM2 used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
@@ -81,6 +80,7 @@ The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric compon
 *   [CAM documentation](https://github.com/ESCOMP/CAM/wiki)
 *   [CAM6 User's Guide](https://ncar.github.io/CAM/doc/build/html/users_guide/index.html)
 
+* * *
 
 # NorESM
 
@@ -94,6 +94,7 @@ The further development of NorESM will be supported by the [Infrastructure for N
 *   [NorESM-2 documentation](https://noresm-docs.readthedocs.io/en/noresm2/)
 *   [NorESM2 introduction paper: Seland et al 2020](https://gmd.copernicus.org/articles/13/6165/2020/gmd-13-6165-2020.html)
 
+* * *
 
 # MPI-ESM
 
@@ -106,6 +107,7 @@ The Max Planck Institute for Meteorology Earth System Model version 1.2 (MPI-ESM
 *   [The Max Planck Institute for Meteorology Earth System Model special collections](https://agupubs.onlinelibrary.wiley.com/doi/toc/10.1002/(ISSN)1942-2466.MPIESM1)
 *   [MPI-ESM1.2 CMIP6 introduction paper: Mauritzen et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018MS001400)
 
+* * *
 
 # UKESM
 
