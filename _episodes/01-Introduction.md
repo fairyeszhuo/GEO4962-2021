@@ -31,6 +31,7 @@ Website links
 *   [CMIP6 data request home page](http://clipc-services.ceda.ac.uk/dreq/index.html)
 *   [CMIP6 data frenquency list](http://clipc-services.ceda.ac.uk/dreq/index/miptable.html)
 *   [CMIP6 variables list](http://clipc-services.ceda.ac.uk/dreq/index/var.html)
+*   [CMIP6 Earth system documentation](https://search.es-doc.org/?project=cmip6&documentType=cim.2.designing.Project&client=esdoc-url-rewrite)
 
 Paper links
 *   [CMIP6 overview paper: Eyring et al., 2016](https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.html)
