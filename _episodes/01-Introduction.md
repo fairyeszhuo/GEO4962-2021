@@ -67,13 +67,13 @@ Some facts about CESM:
 *   [CESM2 introduction paper: Danabasoglu et al., 2020](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019MS001916)
 
 
-## CESM2/WACCM6
+## CESM2-WACCM6
 
 The Whole Atmosphere Community Climate Model version 6 (WACCM6) is a major update of the whole atmosphere modeling capability in the Community Earth System Model 2 (CESM2), featuring enhanced physical, chemical and aerosol parameterizations. There are improvements in high-latitude climate variability at the surface and sea ice extent in WACCM6 over the lower top version of the Community Atmosphere Model (CAM) that comes from the extended vertical domain and expanded aerosol chemistry in WACCM6, highlighting the importance of the stratosphere and tropospheric chemistry for high-latitude climate variability.
 
 *   [WACCM6 introduction paper: Gettelman et al 2019](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JD030943)
 
-## CESM2/CAM6
+## CESM2-CAM6
 
 The 6th phase of the Community Atmosphere Model (CAM6) is the atmospheric component of the CESM2 used in CMIP6. The full description of the CAM6 can be found [here](https://ncar.github.io/CAM/doc/build/html/index.html).  
 
