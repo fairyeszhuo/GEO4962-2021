@@ -23,15 +23,15 @@ keypoints:
 
 # CMIP6 data in the [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
 
-The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip** folder. 
+The CMIP6 model data can be found in the **shared-tacco-ns1004k-cmip-betzy** folder. 
 
 The NorESM model data is in a separate directory and can be found in the **shared-tacco-ns1004k-cmroot** folder.
 
 ## Overview of CMIP6 data structure 
 
-CMIP6 model data in **shared-tacco-ns1004k-cmip**
+CMIP6 model data in **shared-tacco-ns1004k-cmip-betzy**
 
-structure: shared-tacco-ns1004k-cmip/model-institute/model-name/experiment/ensemble-member/data-frequency/variable/grid/data-version
+structure: shared-tacco-ns1004k-cmip-betzy/model-institute/model-name/experiment/ensemble-member/data-frequency/variable/grid/data-version
 
 NorESM model data in **shared-tacco-ns1004k-cmroot**
 
@@ -43,7 +43,7 @@ Data filename format: variable_data-frequency_model-name_experiment_ensemble-mem
 
 - To find historical monthly zonal wind data of **CESM2/WACCM** model
 ~~~
-cd ~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/
+cd ~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/
 ls
 ~~~
 {: .language-bash}
@@ -83,7 +83,7 @@ ua_Amon_NorESM2-MM_historical_r1i1p1f1_gn_201001-201412.nc
 
 - To find historcal daily precipitation data of **MPI-ESM 1.2 HR** model
 ~~~
-cd ~/shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710
+cd ~/shared-tacco-ns1004k-cmip-betzy/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/day/pr/gn/v20190710
 ls
 ~~~
 {: .language-bash}
@@ -128,7 +128,7 @@ pr_day_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_20100101-20141231.nc
 
 - To find historcal monthly temperature data of **UKESM 1.0 LL** model
 ~~~
-cd ~/shared-tacco-ns1004k-cmip/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Amon/ta/gn/v20190406/
+cd ~/shared-tacco-ns1004k-cmip-betzy/MOHC/UKESM1-0-LL/historical/r1i1p1f2/Amon/ta/gn/v20190406/
 ls
 ~~~
 {: .language-bash}
@@ -222,7 +222,7 @@ variables:
 
 <!--
 ~~~
-cd ~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ta/gn/v20190227
+cd ~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ta/gn/v20190227
 ncdump -h ta_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
 ~~~
 {: .language-bash}
@@ -352,7 +352,7 @@ variables:
 {: .output}
 
 ~~~
-cd ~/shared-tacco-ns1004k-cmip/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/Amon/ua/gn/v20190710
+cd ~/shared-tacco-ns1004k-cmip-betzy/MPI-M/MPI-ESM1-2-HR/historical/r1i1p1f1/Amon/ua/gn/v20190710
 ncdump -h ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412.nc
 ~~~
 {: .language-bash}
