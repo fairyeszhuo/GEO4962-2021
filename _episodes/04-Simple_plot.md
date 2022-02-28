@@ -265,7 +265,7 @@ Since ta and ua have an additional dimension (along the vertical), we also have 
 
 ~~~
 # Open data file and read data
-path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/'
+path = '~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ua/gn/v20190227/'
 filename = path + 'ua_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
 ds = xr.open_dataset(filename)
