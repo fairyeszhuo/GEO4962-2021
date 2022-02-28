@@ -221,7 +221,7 @@ More info about scientific color maps, as well as a list of included color maps 
 This function can now be used as the color map argument when you plot:
 
 ~~~
-ds.tas.isel(time=0).plot(cmap=load_cmap('vik'))
+ds.tas.isel(time=0).plot(cmap=load_cmap('batlow'))
 ~~~ 
 {: .language-python}
 
