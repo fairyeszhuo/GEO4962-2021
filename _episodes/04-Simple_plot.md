@@ -52,14 +52,14 @@ Now we can create a map. We plot **tas** (near-surface (usually, 2 meter) air te
 Specify the path where CMIP6 model data is stored:
 
 ~~~
-path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/'
+path = '~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/'
 filename = path + 'tas_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
 ~~~
 {: .language-python}
 
 ~~~
-~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/tas_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
+~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/tas/gn/v20190227/tas_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc
 ~~~
 {: .output}
 
@@ -234,7 +234,7 @@ Add another cell below the plot and display, in the same way, the temperature **
 
 ~~~
 # Open data file and read data
-path = '~/shared-tacco-ns1004k-cmip/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ta/gn/v20190227/'
+path = '~/shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2-WACCM/historical/r1i1p1f1/Amon/ta/gn/v20190227/'
 filename = path + 'ta_Amon_CESM2-WACCM_historical_r1i1p1f1_gn_185001-201412.nc'
 print(filename)
 ds = xr.open_dataset(filename)
