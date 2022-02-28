@@ -21,16 +21,17 @@ keypoints:
   ## Monsoon
 - What is the monsoon?
   The monsoon indicates a seasonal reversing wind accompanied by corresponding changes in precipitation, but is now used to describe seasonal changes in atmospheric circulation and precipitation associated with the asymmetric heating of land and sea.
-- ![image]()
+- <img src="../fig/summer-monson.png" width=400>
+Fig. Summer monsoon
 - <img src="../fig/Wang2021--BAMS-f1.jpg" width=600>
-Fig. The GM precipitation domain (green) defined by the local summer minus winter precipitation rate exceeding 2 mm day−1, and the local summer precipitation exceeding 55% of the annual total (Wang and Ding 2008). Summer denotes May–September for the NH and November–March for the SH. The dry regions (yellow) are defined by local summer precipita-tion being less than 1 mm day−1. The arrows show August minus February 925-hPa winds. The blue (red) lines indicate the ITCZ position in August (February).[Wang et al., 2021](https://journals.ametsoc.org/view/journals/bams/102/1/BAMS-D-19-0335.1.xml?tab_body=fulltext-display) 
+Fig. The GM precipitation domain (green) defined by the local summer minus winter precipitation rate exceeding 2 mm day−1, and the local summer precipitation exceeding 55% of the annual total (Wang and Ding 2008). Summer denotes May–September for the NH and November–March for the SH. The dry regions (yellow) are defined by local summer precipita-tion being less than 1 mm day−1. The arrows show August minus February 925-hPa winds. The blue (red) lines indicate the ITCZ position in August (February).(@[Wang et al., 2021](https://journals.ametsoc.org/view/journals/bams/102/1/BAMS-D-19-0335.1.xml?tab_body=fulltext-display)) 
 - How to calculate monsoon indices: 
 [NOAA CPC monsoon indices definitions](https://www.cpc.ncep.noaa.gov/products/Global_Monsoons/Asian_Monsoons/Figures/Index/)
 [Realtime monsoon index in 2014-2015](https://www.cpc.ncep.noaa.gov/products/Global_Monsoons/Asian_Monsoons/monsoon_index.shtml)
 
   ## Asian Monsoon
-- Asian monsoon: 
-- ![image](https://user-images.githubusercontent.com/44640857/111969057-21e45000-8afa-11eb-8dc9-d39f98806c49.png) ([Scaife et al., 2005](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2005GL023226))
+- Asian monsoon 
+
 
 # Research question ideas
 - Is the Asian monsoon circulation weakened under global warming in CMIP6 simulation? 
