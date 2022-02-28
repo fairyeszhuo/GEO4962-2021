@@ -240,7 +240,7 @@ print(filename)
 ds = xr.open_dataset(filename)
 
 # Plot the first time step at the 850 hPa pressure level
-ds.ta.isel(time=0, plev=2).plot(cmap=load_cmap('vik'))
+ds.ta.isel(time=0, plev=2).plot(cmap=load_cmap('batlow'))
 ~~~
 {: .language-python}
 
