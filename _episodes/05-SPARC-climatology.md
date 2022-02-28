@@ -80,7 +80,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import calendar
 
-mpl.rcParams['figure.figsize'] = [10., 8.]
+mpl.rcParams['figure.figsize'] = [8., 6.]
 
 filename = 'shared-tacco-ns1004k/SPARC/sparc.nc'
 ds = xr.open_dataset(filename)
@@ -118,7 +118,7 @@ Attributes:
 %run shared-tacco-ns1004k/scripts/load_cmap.ipynb
 
 # plot for January (month=0)
-ds.TEMP.isel(month=0).plot.contourf(cmap=load_cmap('vik'),
+ds.TEMP.isel(month=0).plot.contourf(cmap=load_cmap('batlow'),
                                    levels=20)
 
 plt.title(calendar.month_name[1])
@@ -137,7 +137,7 @@ plt.xlim(right=ds.TEMP.lat.max())
 ### SPARC climatology: Plot zonal wind
 
 ~~~
-ds.WIND.isel(month=0).plot.contourf(cmap=load_cmap('cork'),
+ds.WIND.isel(month=0).plot.contourf(cmap=load_cmap('vik'),
                                    levels=15)
 
 plt.title(calendar.month_name[1])
@@ -154,7 +154,7 @@ plt.xlim(right=ds.TEMP.lat.max())
 
 ### Multiple plots 
 
-To generate 12 subplots (one per month) for the zonal wind, we can use the Python **range(start, stop[, step])** function (remember that the range of integers ends at **stop - 1**):
+To generate 12 subplots (one per month) for the zonal wind and temperature climatology, we can use the Python **range(start, stop[, step])** function (remember that the range of integers ends at **stop - 1**):
 
 ~~~
 import xarray as xr
@@ -163,49 +163,23 @@ import matplotlib.pyplot as plt
 import numpy as np
 import calendar
 
-# some more adjustments to the figure aesthetics
-mpl.rcParams['xtick.direction'] = 'in'
-mpl.rcParams['ytick.direction'] = 'in'
-mpl.rcParams.update({'font.size': 16})
-
-filename = 'shared-tacco-ns1004k/SPARC/sparc.nc'
-ds = xr.open_dataset(filename)
-
-fig = plt.figure(figsize=[25, 18])
+fig = plt.figure(figsize=[18,16])
 for month in range(1,13):
-    ax = fig.add_subplot(3, 4, month)  # specify (nrows, ncols, axnum)
-
-    levels=np.arange(-70,100,10)
-
-    cs=ds.WIND.isel(month=month-1).plot.contourf(ax=ax, 
-                                                 extend='both',
-                                                 cmap=load_cmap('cork'), 
-                                                 vmin=-70, 
-                                                 vmax = 100, 
-                                                 add_colorbar=False, 
-                                                 levels= levels)
-
-    plt.ylim(plt.ylim()[::-1])
-    plt.yscale('log')
+    ax = fig.add_subplot(3, 4, month)  # specify number of rows and columns, and axis
+    
     ax.set_title(label = calendar.month_name[month])
-    ax.set_ylim(top=5.0e-5)
-    ax.set_ylim(bottom=1000.)
-    ax.set_xlim(left=ds.WIND.lat.min())
-    ax.set_xlim(right=ds.WIND.lat.max())
+
+fig.suptitle(ds.WIND.attrs['long_name'], fontsize=22)
     
-fig.suptitle(ds.WIND.attrs['long_name'], fontsize=24)
-    
-# adjust subplots so we keep a bit of space on the right for the colorbar    
-fig.subplots_adjust(right=0.8, wspace=0.3, hspace=0.5)
-# Specify where to place the colorbar
-cbar_ax = fig.add_axes([0.85, 0.15, 0.01, 0.7])
-# Add a unique colorbar to the figure
-fig.colorbar(cs, cax=cbar_ax, label=ds.WIND.attrs['units'])
+# Add shared colorbar:
+fig.subplots_adjust(right=0.82, wspace=0.5, hspace=0.3) # adjust subplots so we keep a bit of space on the right for the colorbar    
+cbar_ax = fig.add_axes([0.85, 0.15, 0.01, 0.7]) # Specify where to place the colorbar
+#fig.colorbar(<handle of your contour plot here>, cax=cbar_ax, label=ds.WIND.attrs['units']) # Add a colorbar to the figure
 
 ~~~
 {: .language-python}
 
-Here we show the SPARC climatology of zonal wind 
+This allows you to plot, e.g., the zonal wind like this:
 <img src="../fig/sparc_U_all.png">
 
 > ## Make a multiple plot for the SPARC temperature
