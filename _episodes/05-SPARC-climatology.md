@@ -241,13 +241,12 @@ This allows you to plot, e.g., the zonal wind like this:
 >
 {: .challenge}
 
-# Compare CMIP6 model data to the SPARC climatology
+# Home-assignment: Visualize and compare CMIP6 model data to the SPARC climatology
 
 Now that we are familiar with the SPARC climatology, we are ready to analyze CMIP6 model data and make comparison with it. This is the goal of the first exercise you will have to fulfill. 
 
-To help you:
-- we summarize the [methodology](#methodology) you can follow (please note that there is not one unique way to analyze and plot, and you should feel free to divert from the methodology given)
-- we give you some [instructions](#exercise) with a list of questions you need to answer
+To help you we summarize the [methodology](#methodology) you can follow (please note that there is not one unique way to analyze and plot, and you should feel free to divert from the methodology given)
+<!--- we give you some [instructions](#exercise) with a list of questions you need to answer-->
 
 ## Methodology
 
@@ -471,7 +470,7 @@ You are now ready to visualize U and T from CMIP6 model data and start the exerc
 
 -->
 
-> ## Exercise
+> ## Home-assignment
 > 
 > <font color="red">How well does your model represent the SPARC climatology?</font>
 > 
@@ -485,7 +484,7 @@ You are now ready to visualize U and T from CMIP6 model data and start the exerc
 
 ### Deadline
 
-<font color="red">Fulfill the first exercise until the next practical on <b>March 22, 2021</b>!</font>
+<font color="red">Fulfill the first exercise until the next practical on <b>March 7, 2022</b>!</font>
 
 {% include links.md %}
 
