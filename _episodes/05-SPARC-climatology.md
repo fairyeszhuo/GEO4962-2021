@@ -245,15 +245,129 @@ This allows you to plot, e.g., the zonal wind like this:
 
 Now that we are familiar with the SPARC climatology, we are ready to analyze CMIP6 model data and make comparison with it. This is the goal of the first exercise you will have to fulfill. 
 
-To help you we summarize the [methodology](#methodology) you can follow (please note that there is not one unique way to analyze and plot, and you should feel free to divert from the methodology given)
+To help you we give some hints for a [methodology](#methodology) you can follow (please note that there is not one unique way to analyze and plot, and you should feel free to divert from the methodology given), and will assist you during the class.
 <!--- we give you some [instructions](#exercise) with a list of questions you need to answer-->
 
 ## Methodology
 
 ### Which variables to analyze and why?
 
-You can analyze many variables from the control run to check its validity but at least **T** (temperature) and **U** (zonal wind) as
+You can analyze many variables from the control run to check its validity but at least temperature and zonal wind as
 these two variables are the one contained in the SPARC climatology. 
+
+### Useful Python code
+
+If the data you need are separated into different files, you can load several files at once and concatenate (or combine) them.
+~~~
+# load multiple specified files
+path = 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/'
+files = [path+'ua_Amon_CESM2_historical_r10i1p1f1_gn_195001-199912.nc',
+         path+'ua_Amon_CESM2_historical_r10i1p1f1_gn_200001-201412.nc']
+files
+~~~
+{: .language-python}
+
+~~~
+['shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_195001-199912.nc',
+ 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_200001-201412.nc']
+~~~
+{: .output}
+
+You can also use wildcards (i.e. "\*") for loading many files.
+
+~~~
+import glob
+import os
+
+# load loads of files
+path = 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/'
+files =  glob.glob(os.path.join(path, 'ua_Amon_CESM2_historical_r10i1p1f1_gn_*'))
+# sort files so they appear by year/month
+files.sort()
+files
+~~~
+{: .language-python}
+
+~~~
+['shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_185001-189912.nc',
+ 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_190001-194912.nc',
+ 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_195001-199912.nc',
+ 'shared-tacco-ns1004k-cmip-betzy/NCAR/CESM2/historical/r10i1p1f1/Amon/ua/gn/latest/ua_Amon_CESM2_historical_r10i1p1f1_gn_200001-201412.nc']
+~~~
+{: .output}
+
+Now that we have a list of the file names, we can load all files at once into the same xarray dataset using xarray.open_mfdataset(), which knows to concatenate the files in the time dimension.
+
+~~~
+import xarray as xr
+
+ds = xr.open_mfdataset(files, combine='by_coords')
+ds
+~~~
+{: .language-python}
+
+~~~
+<xarray.Dataset>
+Dimensions:    (lat: 192, lon: 288, nbnd: 2, plev: 19, time: 780)
+Coordinates:
+  * lon        (lon) float64 0.0 1.25 2.5 3.75 5.0 ... 355.0 356.2 357.5 358.8
+  * plev       (plev) float64 1e+05 9.25e+04 8.5e+04 7e+04 ... 1e+03 500.0 100.0
+  * lat        (lat) float64 -90.0 -89.06 -88.12 -87.17 ... 88.12 89.06 90.0
+  * time       (time) object 1950-01-15 12:00:00 ... 2014-12-15 12:00:00
+Dimensions without coordinates: nbnd
+Data variables:
+    ua         (time, plev, lat, lon) float32 dask.array<chunksize=(600, 19, 192, 288), meta=np.ndarray>
+    time_bnds  (time, nbnd) object dask.array<chunksize=(600, 2), meta=np.ndarray>
+    lat_bnds   (time, lat, nbnd) float64 dask.array<chunksize=(600, 192, 2), meta=np.ndarray>
+    lon_bnds   (time, lon, nbnd) float64 dask.array<chunksize=(600, 288, 2), meta=np.ndarray>
+Attributes:
+    Conventions:            CF-1.7 CMIP-6.2
+    activity_id:            CMIP
+    branch_method:          standard
+    branch_time_in_child:   674885.0
+    branch_time_in_parent:  306600.0
+    case_id:                24
+    cesm_casename:          b.e21.BHIST.f09_g17.CMIP6-historical.010
+    contact:                cesm_cmip6@ucar.edu
+    creation_date:          2019-03-12T05:37:46Z
+    data_specs_version:     01.00.29
+    experiment:             Simulation of recent past (1850 to 2014). Impose ...
+    experiment_id:          historical
+    external_variables:     areacella
+    forcing_index:          1
+    frequency:              mon
+    further_info_url:       https://furtherinfo.es-doc.org/CMIP6.NCAR.CESM2.h...
+    grid:                   native 0.9x1.25 finite volume grid (192x288 latxlon)
+    grid_label:             gn
+    initialization_index:   1
+    institution:            National Center for Atmospheric Research, Climate...
+    institution_id:         NCAR
+    license:                CMIP6 model data produced by <The National Center...
+    mip_era:                CMIP6
+    model_doi_url:          https://doi.org/10.5065/D67H1H0V
+    nominal_resolution:     100 km
+    parent_activity_id:     CMIP
+    parent_experiment_id:   piControl
+    parent_mip_era:         CMIP6
+    parent_source_id:       CESM2
+    parent_time_units:      days since 0001-01-01 00:00:00
+    parent_variant_label:   r1i1p1f1
+    physics_index:          1
+    product:                model-output
+    realization_index:      10
+    realm:                  atmos
+    source:                 CESM2 (2017): atmosphere: CAM6 (0.9x1.25 finite v...
+    source_id:              CESM2
+    source_type:            AOGCM BGC
+    sub_experiment:         none
+    sub_experiment_id:      none
+    table_id:               Amon
+    tracking_id:            hdl:21.14100/08811120-5c62-417b-97dd-a477ad5820ef
+    variable_id:            ua
+    variant_info:           CMIP6 20th century experiments (1850-2014) with C...
+    variant_label:          r10i1p1f1
+~~~
+{: .output}
 
 <!--
 
@@ -456,17 +570,20 @@ Data variables:
 {: .callout}
 
 
-### How to save the results in a new netCDF file?
-
-You can use the *to_netcdf* xarray method:
+If you want to save your results in a new netcdf file, you can do this with the *to_netcdf* xarray method:
 ~~~
-# To select variables and store to netCDF
 dy[['ua']].to_netcdf("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412_clim.nc")
 ~~~
 {: .language-python}
 
+You can then load your saved files back when you need them later, without having to repeat your data processing.
 
-You are now ready to visualize U and T from CMIP6 model data and start the exercise where you will compare this with the SPARC climatology.
+~~~
+ds = xr.open_dataset("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412_clim.nc")
+~~~
+{: .language-python}
+
+You are now ready to visualize zonal wind and temperature from CMIP6 model data and start the exercise where you will compare this with the SPARC climatology.
 
 -->
 
@@ -475,10 +592,11 @@ You are now ready to visualize U and T from CMIP6 model data and start the exerc
 > <font color="red">How well does your model represent the SPARC climatology?</font>
 > 
 > To answer this question:
-> - write a Python 3 Jupyter notebook and name it **exercise_sparc_vs_Your-MODEL-NAME_YOURNAME.ipynb** where you need to
+> - Write a Python 3 Jupyter notebook and name it **exercise_sparc_vs_Your-MODEL-NAME_YOURNAME.ipynb** where you need to
 > replace **Your-MODEL-NAME** by the model you choose to analyze and **YOURNAME** by your name!
-> - Follow the methodology given in this lesson and compare the results from your model data and the SPARC climatology.
-> - send it by email to the instructors/teachers 
+> - Follow the methodology given in this lesson and compare the results from your model data and the SPARC climatology. 
+> - Your answer should contain plots of the climatologies, an explanation of what you have plotted and why, and a brief dicsussion of how the climatologies compare. 
+> - Send it by email to the instructors/teachers. We will discuss your results in the next model practical.
 >
 {: .challenge}
 
