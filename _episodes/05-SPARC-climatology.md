@@ -585,9 +585,8 @@ ds = xr.open_dataset("ua_Amon_MPI-ESM1-2-HR_historical_r1i1p1f1_gn_201001-201412
 ~~~
 {: .language-python}
 
-You are now ready to visualize zonal wind and temperature from CMIP6 model data and start the exercise where you will compare this with the SPARC climatology.
+You are now ready to visualize zonal wind and temperature from CMIP6 model data and start the home-assignment where you will compare this with the SPARC climatology!
 
--->
 
 > ## Home-assignment
 > 
