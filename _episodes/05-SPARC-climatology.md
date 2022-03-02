@@ -255,7 +255,7 @@ To help you we give some hints for a [methodology](#methodology) you can follow 
 You can analyze many variables from the control run to check its validity but at least temperature and zonal wind, as
 these two variables are the ones contained in the SPARC climatology. 
 
-You have a lot of model data at hand. Discuss with your fellow students and tutors which CMIP6 data it makes sense comparing to the SPARC climatology. 
+You have a lot of model data at hand. Discuss with your fellow students and tutors which CMIP6 data it makes sense to compare to the SPARC climatology. 
 
 ### Useful Python code
 
