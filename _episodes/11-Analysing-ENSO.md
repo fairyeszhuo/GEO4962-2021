@@ -82,8 +82,8 @@ The **Southern Oscillation Index (SOI)** is a standardized index based on the ob
 
 - El Niño and La Niña events have significant and disrupting impacts on the global atmospheric and oceanic circulation through atmospheric teleconnections, changing precipitation and temperature in various parts of the globe, and affecting extreme weather events worldwide. 
 - El Niño Southern Oscillation (ENSO) impacts also extend above the troposphere, affecting the strength and variability of the stratospheric polar vortex in the high latitudesof both hemispheres, as well as the composition and circulation of the tropical stratosphere. 
-*  <img src="../fig/enso-strato-teleconnection-Domeisen2018.jpg" width=500> (@ [Domeisen et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018RG000596)
-January-February-March composites of the El Niño (left) and La Niña (right) winters listed in Table 1 for geopotential height anomalies (shading, m) at 500 and 50 mb (top two rows) and temperature anomalies (shading, K) at the surface and at 50 mb (bottom two rows). The stippling indicates regions that are significantly different from the 1980–2010 climatology at the 95% level using a two-sided t test of the difference of means between El Niño and La Niña. Data is from JRA-55 reanalysis (Kobayashi et al., 2015), 1958–2016, and has been linearly detrended.
+*  <img src="../fig/enso-strato-teleconnection-Domeisen2018.jpg" width=500>
+January-February-March composites of the El Niño (left) and La Niña (right) winters listed in Table 1 for geopotential height anomalies (shading, m) at 500 and 50 mb (top two rows) and temperature anomalies (shading, K) at the surface and at 50 mb (bottom two rows). The stippling indicates regions that are significantly different from the 1980–2010 climatology at the 95% level using a two-sided t test of the difference of means between El Niño and La Niña. Data is from JRA-55 reanalysis (Kobayashi et al., 2015), 1958–2016, and has been linearly detrended. (@[Domeisen et al., 2018](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018RG000596)
 
 # References
 
