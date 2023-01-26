@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Model topic: BDC and ozone"
 teaching: 0
