@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Model topic: QBO"
 teaching: 0
