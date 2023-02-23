@@ -603,7 +603,7 @@ You are now ready to visualize zonal wind and temperature from CMIP6 model data 
 
 ### Deadline
 
-<font color="red">Send the exercise <b>by 10:00 on Friday March 3, 2023</b>!</font>
+<font color="red">Hand in the exercise <b>by 10:00 on Friday March 3, 2023</b>!</font>
 
 {% include links.md %}
 
