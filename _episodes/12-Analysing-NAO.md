@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Model topic: The North Atlantic Oscillation (NAO)"
 teaching: 0
@@ -48,3 +49,5 @@ The NAO is the dominant atmospheric circulation pattern over the North Atlantic/
 - NAO and its relationship with the Northern Hemisphere mean surface temperature in CMIP5 simulations: [Wang et al., 2017](https://doi.org/10.1002/2016JD025979)
 
 {% include links.md %}
+
+-->
