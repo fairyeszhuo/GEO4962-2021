@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Model topic: BDC and ozone"
 teaching: 0
@@ -39,3 +40,5 @@ keypoints:
 - [The SPARC Reanalysis Intercomparison Project (S-RIP)](https://s-rip.ees.hokudai.ac.jp/pubs/index.html)
 - S-RIP ozone and water vapour paper: [Davis et al 2017 ACP](https://acp.copernicus.org/articles/17/12743/2017/) 
 - Age of stratospheric air: [Engel et al., 2009](https://www.nature.com/articles/ngeo388); [Waugh, 2009](https://www.nature.com/articles/ngeo397)
+
+-->

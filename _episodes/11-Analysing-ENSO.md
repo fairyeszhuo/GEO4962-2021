@@ -1,3 +1,4 @@
+<!--
 ---
 title: "Model topic: ENSO teleconnections"
 teaching: 0
@@ -101,3 +102,5 @@ January-February-March composites of the El Niño (left) and La Niña (right) wi
 -->
  
 {% include links.md %}
+
+-->
