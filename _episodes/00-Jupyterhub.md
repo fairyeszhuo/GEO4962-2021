@@ -30,44 +30,13 @@ interface and the necessary post-processing and visualization packages we need a
 
 - You should have received an info email containing an invitation link. If not please request it to the course organizers.
 - Follow the invitation link in the email message
-- If you don't already have a Feide guest user account click "Feide guest users". (If you already have a Feide guest user account, skip this step)
-    - register a new account (do not use your UiO username as it may be confusing for everyone).
-    - finish the registration process
-    - click again on the "invitation link" in the email
-- Login with "Feide guest users"
-- Accept the different policies
-- Agree to become a member of the **NS1004K**: the browser should display the message "Loading group details"
+- Log in with your University of Oslo Feide account
+- Accept the policies and agree to become a member of the group **GEO4962**
 - Now go to [GEO4962 Jupyterhub](https://geo4962.tacco.sigma2.no/)
-- Click "Sign in with Dataporten"
-- Login with Feide Guest User (Not your UiO username)
-- Finally the web browser should display a page with "jupyterlab" on the upper left side
+- Log in with your University of Oslo Feide account
+- You should now be logged in to the JupyterHub in your web browser!
 
 For later usage of the notebooks just use the [GEO4962 Jupyterhub link](https://geo4962.tacco.sigma2.no/)
-
-## Login to the JupyterHub
-
-<img src="../fig/jupyterhub_login.png" width="500">
-
-- Click on **Dataporten**
-
-<img src="../fig/jupyterhub_login2.png" width="500">
-
-- **Do not use your Feide user account, so click on **Can't find your user account?**
-
-- In **Other login alternatives**, click on **Feide guest users**
-
-<img src="../fig/jupyterhub_feide_guest.png" width="500">
-
-- Use the username and password you have received and **sign In**.
-
-<img src="../fig/jupyterhub_feide_guest2.png" width="500">
-
-> ## Tips
-> Before getting to the username/password login page, your browser may warn you about the security
-> of the website and get a message such as "This site is not secure". In order to bypass this security message,
-> you need to accept to proceed. Let us know if you still have problems to login.
->
-{: .callout}
  
 ## Start and stop your server
 
