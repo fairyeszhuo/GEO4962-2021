@@ -593,8 +593,8 @@ You are now ready to visualize zonal wind and temperature from CMIP6 model data 
 > <font color="red">How well does your model represent the SPARC climatology?</font>
 > 
 > To answer this question:
-> - Write a Python 3 Jupyter notebook and name it **exercise_sparc_vs_Your-MODEL-NAME_YOURNAME.ipynb** where you need to
-> replace **Your-MODEL-NAME** by the model you choose to analyze and **YOURNAME** by your name!
+> - Write a Python 3 Jupyter notebook and name it **exercise_sparc_vs_YOUR-MODEL-NAME_YOURNAME.ipynb** where you need to
+> replace **YOUR-MODEL-NAME** by the model you choose to analyze and **YOURNAME** by your name!
 > - Follow the methodology given in this lesson and compare the results from your model data and the SPARC climatology. 
 > - Your answer should contain plots of the climatologies, an explanation of what you have plotted and why, and a brief dicsussion of how the climatologies compare. 
 > - Send it by email to the instructors/teachers. We will discuss your results in the next model practical.
@@ -603,7 +603,7 @@ You are now ready to visualize zonal wind and temperature from CMIP6 model data 
 
 ### Deadline
 
-<font color="red">Fulfill the first exercise until the next practical on <b>March 7, 2022</b>!</font>
+<font color="red">Send the exercise <b>by 10:00 on Friday March 3, 2023</b>!</font>
 
 {% include links.md %}
 
