@@ -59,6 +59,7 @@ sparc.nc
 ~~~
 {: .output}
 
+<!--
 > ## Exercise
 > 
 > <font color="red">What are the horizontal and vertical resolution of the SPARC data?</font>
@@ -68,7 +69,7 @@ sparc.nc
 > - You can use ncdump or CDO 
 >
 {: .challenge}
-
+-->
 ## Plotting SPARC climatology using *python*
 
 ### Open SPARC climatology netCDF file
