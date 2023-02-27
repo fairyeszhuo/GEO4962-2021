@@ -598,7 +598,7 @@ You are now ready to visualize zonal wind and temperature from CMIP6 model data 
 > replace **YOUR-MODEL-NAME** by the model you choose to analyze and **YOURNAME** by your name!
 > - Follow the methodology given in this lesson and compare the results from your model data and the SPARC climatology. 
 > - Your answer should contain plots of the climatologies, an explanation of what you have plotted and why, and a brief dicsussion of how the climatologies compare. 
-> - Send it by email to the instructors/teachers. We will discuss your results in the next model practical.
+> - Send it by email to the instructors/teachers. We will discuss your results in next Monday's model practical.
 >
 {: .challenge}
 
