@@ -1,4 +1,3 @@
-<!--
 ---
 title: "Model topic: QBO"
 teaching: 0
@@ -49,5 +48,3 @@ The quasi-biennial oscillation (QBO) (Baldwin et al 2001):
 
 
 {% include links.md %}
-
--->
