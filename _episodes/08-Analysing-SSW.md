@@ -1,4 +1,4 @@
-<!--
+#<!--
 ---
 title: "Model topic: Sudden stratospheric warmings"
 teaching: 0
@@ -43,4 +43,4 @@ Daily [ta, ua, zg] (at least available for NorESM2), [FUB dataset](https://www.g
 - SSWs and stratosphere-troposphere coupling in CMIP6 abrupt-4xCO2: [Ayarzagüena et al., 2020](https://doi.org/10.1029/2019JD032345)
 - [Blog post: On the sudden stratospheric warming and polar vortex of early 2021](https://www.climate.gov/news-features/blogs/enso/sudden-stratospheric-warming-and-polar-vortex-early-2021)
 
--->
+#-->
